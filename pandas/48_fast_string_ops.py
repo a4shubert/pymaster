@@ -1,9 +1,7 @@
-"""
-Technique: Fast String Ops (Cleaning Symbol IDs)
-Use When:
-- Identifiers arrive messy (spaces, case, vendor suffixes)
-- Vectorized string methods keep it fast and consistent
-"""
+# Technique: Fast String Ops (Cleaning Symbol IDs)
+# Use When:
+# - Identifiers arrive messy (spaces, case, vendor suffixes)
+# - Vectorized string methods keep it fast and consistent
 
 import pandas as pd
 

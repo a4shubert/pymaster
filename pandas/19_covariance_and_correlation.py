@@ -1,9 +1,7 @@
-"""
-Technique: Covariance/Correlation Matrices (Risk + Diversification)
-Use When:
-- Portfolio risk models start with cov/corr of returns
-- Proper alignment and missing handling are critical
-"""
+# Technique: Covariance/Correlation Matrices (Risk + Diversification)
+# Use When:
+# - Portfolio risk models start with cov/corr of returns
+# - Proper alignment and missing handling are critical
 
 import pandas as pd
 

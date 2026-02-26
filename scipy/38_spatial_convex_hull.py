@@ -1,8 +1,6 @@
-"""
-Technique: Convex Hull (geometry)
-Use When:
-- Geometry utilities via scipy.spatial
-"""
+# Technique: Convex Hull (geometry)
+# Use When:
+# - Geometry utilities via scipy.spatial
 
 import numpy as np
 from scipy.spatial import ConvexHull

@@ -1,10 +1,8 @@
-"""
-Technique: Typed Settings Loaded from Environment
-Use When:
-- Clear, validated configuration contracts
-- Fails fast when required settings are missing/invalid
-- Keeps environment details out of business logic
-"""
+# Technique: Typed Settings Loaded from Environment
+# Use When:
+# - Clear, validated configuration contracts
+# - Fails fast when required settings are missing/invalid
+# - Keeps environment details out of business logic
 
 import os
 from dataclasses import dataclass

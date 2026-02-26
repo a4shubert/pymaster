@@ -1,9 +1,7 @@
-"""
-Technique: Duplicate Handling (Primary Keys) in Market Data
-Use When:
-- Vendor files sometimes duplicate records
-- You must decide a deterministic rule (last, first, max volume)
-"""
+# Technique: Duplicate Handling (Primary Keys) in Market Data
+# Use When:
+# - Vendor files sometimes duplicate records
+# - You must decide a deterministic rule (last, first, max volume)
 
 import pandas as pd
 

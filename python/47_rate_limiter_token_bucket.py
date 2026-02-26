@@ -1,10 +1,8 @@
-"""
-Technique: Token Bucket Rate Limiter
-Use When:
-- Protects services from overload
-- Enforces fair usage across callers
-- Smooths burst traffic
-"""
+# Technique: Token Bucket Rate Limiter
+# Use When:
+# - Protects services from overload
+# - Enforces fair usage across callers
+# - Smooths burst traffic
 
 import time
 from dataclasses import dataclass

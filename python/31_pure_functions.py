@@ -1,10 +1,8 @@
-"""
-Technique: Pure Functions (Predictable, Testable Code)
-Use When:
-- Pure functions are deterministic: same inputs, same output
-- No hidden side effects makes testing and reasoning easy
-- Encourages clean boundaries between logic and I/O
-"""
+# Technique: Pure Functions (Predictable, Testable Code)
+# Use When:
+# - Pure functions are deterministic: same inputs, same output
+# - No hidden side effects makes testing and reasoning easy
+# - Encourages clean boundaries between logic and I/O
 
 from dataclasses import dataclass
 

@@ -1,8 +1,6 @@
-"""
-Technique: Event-Driven-ish Backtest with Vectorization
-Use When:
-- Many real systems are event-driven, but research often approximates with
-"""
+# Technique: Event-Driven-ish Backtest with Vectorization
+# Use When:
+# - Many real systems are event-driven, but research often approximates with
 
 import pandas as pd
 

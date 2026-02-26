@@ -1,10 +1,8 @@
-"""
-Technique: ABC vs Protocol (Nominal vs Structural Interfaces)
-Use When:
-- You choose interface style based on control and flexibility needs
-- ABC enforces explicit inheritance (nominal typing)
-- Protocol enables duck-typed compatibility with static checks (structural typing)
-"""
+# Technique: ABC vs Protocol (Nominal vs Structural Interfaces)
+# Use When:
+# - You choose interface style based on control and flexibility needs
+# - ABC enforces explicit inheritance (nominal typing)
+# - Protocol enables duck-typed compatibility with static checks (structural typing)
 
 from abc import ABC, abstractmethod
 from typing import Protocol

@@ -1,10 +1,8 @@
-"""
-Technique: Dataclasses vs Regular Classes (Choose the Right Model)
-Use When:
-- `@dataclass` removes boilerplate for data containers
-- Regular classes are better when behavior/lifecycle dominates
-- Clear model choice improves readability and maintainability
-"""
+# Technique: Dataclasses vs Regular Classes (Choose the Right Model)
+# Use When:
+# - `@dataclass` removes boilerplate for data containers
+# - Regular classes are better when behavior/lifecycle dominates
+# - Clear model choice improves readability and maintainability
 
 from dataclasses import dataclass
 

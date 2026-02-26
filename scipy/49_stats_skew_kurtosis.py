@@ -1,8 +1,6 @@
-"""
-Technique: Skew/Kurtosis
-Use When:
-- Tail shape metrics (be cautious; noisy estimates)
-"""
+# Technique: Skew/Kurtosis
+# Use When:
+# - Tail shape metrics (be cautious; noisy estimates)
 
 import numpy as np
 from scipy.stats import skew, kurtosis

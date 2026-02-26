@@ -1,10 +1,8 @@
-"""
-Technique: Context Managers (Reliable Resource Cleanup)
-Use When:
-- Resources (files, DB sessions, locks, timers) are always cleaned up
-- Cleanup runs even when exceptions happen
-- Code is safer and easier to reason about
-"""
+# Technique: Context Managers (Reliable Resource Cleanup)
+# Use When:
+# - Resources (files, DB sessions, locks, timers) are always cleaned up
+# - Cleanup runs even when exceptions happen
+# - Code is safer and easier to reason about
 
 from contextlib import contextmanager
 from time import perf_counter

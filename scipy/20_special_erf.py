@@ -1,8 +1,6 @@
-"""
-Technique: Special Functions (erf)
-Use When:
-- Common in normal CDF relationships
-"""
+# Technique: Special Functions (erf)
+# Use When:
+# - Common in normal CDF relationships
 
 import numpy as np
 from scipy import special

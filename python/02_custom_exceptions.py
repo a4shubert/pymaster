@@ -1,10 +1,8 @@
-"""
-Technique: Custom Exceptions for Clear Error Contracts
-Use When:
-- Callers can handle failures by category instead of string matching
-- Domain errors are separated from low-level runtime errors
-- Error handling becomes predictable in services and APIs
-"""
+# Technique: Custom Exceptions for Clear Error Contracts
+# Use When:
+# - Callers can handle failures by category instead of string matching
+# - Domain errors are separated from low-level runtime errors
+# - Error handling becomes predictable in services and APIs
 
 from dataclasses import dataclass
 

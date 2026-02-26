@@ -1,10 +1,8 @@
-"""
-Technique: CLI Design with argparse
-Use When:
-- Provides discoverable commands and help text
-- Validates user input at the command boundary
-- Makes scripts reusable in automation and CI
-"""
+# Technique: CLI Design with argparse
+# Use When:
+# - Provides discoverable commands and help text
+# - Validates user input at the command boundary
+# - Makes scripts reusable in automation and CI
 
 import argparse
 

@@ -1,10 +1,8 @@
-"""
-Technique: ThreadPoolExecutor for Blocking I/O
-Use When:
-- Speeds up independent blocking operations
-- Keeps code simple when APIs are synchronous
-- Controls concurrency level explicitly
-"""
+# Technique: ThreadPoolExecutor for Blocking I/O
+# Use When:
+# - Speeds up independent blocking operations
+# - Keeps code simple when APIs are synchronous
+# - Controls concurrency level explicitly
 
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed

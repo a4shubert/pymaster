@@ -1,9 +1,7 @@
-"""
-Technique: Lagging + Feature Engineering (Avoid Lookahead)
-Use When:
-- Feature engineering often uses rolling stats
-- You must lag features to ensure they are known at decision time
-"""
+# Technique: Lagging + Feature Engineering (Avoid Lookahead)
+# Use When:
+# - Feature engineering often uses rolling stats
+# - You must lag features to ensure they are known at decision time
 
 import pandas as pd
 

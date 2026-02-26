@@ -1,9 +1,7 @@
-"""
-Technique: Performance Hygiene (copies, chained assignment)
-Use When:
-- Research code becomes slow or wrong due to chained assignment
-- In production, you want explicit `.copy()` boundaries
-"""
+# Technique: Performance Hygiene (copies, chained assignment)
+# Use When:
+# - Research code becomes slow or wrong due to chained assignment
+# - In production, you want explicit `.copy()` boundaries
 
 import pandas as pd
 

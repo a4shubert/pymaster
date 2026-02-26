@@ -1,10 +1,8 @@
-"""
-Technique: Encapsulation with Invariants + @property
-Use When:
-- Objects protect their own correctness (invariants)
-- Callers use a simple API; representation can change safely
-- Properties expose computed values without leaking internal state
-"""
+# Technique: Encapsulation with Invariants + @property
+# Use When:
+# - Objects protect their own correctness (invariants)
+# - Callers use a simple API; representation can change safely
+# - Properties expose computed values without leaking internal state
 
 from dataclasses import dataclass
 

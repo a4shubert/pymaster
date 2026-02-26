@@ -1,10 +1,8 @@
-"""
-Technique: Strategy Pattern (Swap Algorithms Cleanly)
-Use When:
-- Avoids large if/else trees for behavior selection
-- Makes algorithms testable in isolation
-- Enables runtime selection (config, feature flags)
-"""
+# Technique: Strategy Pattern (Swap Algorithms Cleanly)
+# Use When:
+# - Avoids large if/else trees for behavior selection
+# - Makes algorithms testable in isolation
+# - Enables runtime selection (config, feature flags)
 
 from dataclasses import dataclass
 from typing import Protocol

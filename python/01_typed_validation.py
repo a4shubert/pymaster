@@ -1,10 +1,8 @@
-"""
-Technique: Typed Validation Boundary (Parse Early, Trust Internal Data)
-Use When:
-- External input (APIs, files, user JSON) is untrusted
-- Validate once at the boundary
-- Convert to a typed domain model, then keep internal code strict and simple
-"""
+# Technique: Typed Validation Boundary (Parse Early, Trust Internal Data)
+# Use When:
+# - External input (APIs, files, user JSON) is untrusted
+# - Validate once at the boundary
+# - Convert to a typed domain model, then keep internal code strict and simple
 
 from dataclasses import dataclass
 from typing import Any

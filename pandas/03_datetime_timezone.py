@@ -1,9 +1,7 @@
-"""
-Technique: Datetime + Timezones (Market Data Correctness)
-Use When:
-- Mixing naive/aware timestamps silently breaks joins and resampling
-- Normalize to UTC for storage; convert to local exchange tz for session logic
-"""
+# Technique: Datetime + Timezones (Market Data Correctness)
+# Use When:
+# - Mixing naive/aware timestamps silently breaks joins and resampling
+# - Normalize to UTC for storage; convert to local exchange tz for session logic
 
 import pandas as pd
 

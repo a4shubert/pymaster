@@ -1,9 +1,7 @@
-"""
-Technique: merge vs join (Reference Data Enrichment)
-Use When:
-- Enrich trades with security master fields (sector, currency, lot size)
-- Bad joins create silent row explosions or dropped observations
-"""
+# Technique: merge vs join (Reference Data Enrichment)
+# Use When:
+# - Enrich trades with security master fields (sector, currency, lot size)
+# - Bad joins create silent row explosions or dropped observations
 
 import pandas as pd
 

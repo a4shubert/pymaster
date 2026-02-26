@@ -1,10 +1,8 @@
-"""
-Technique: pathlib + Explicit File I/O
-Use When:
-- `Path` objects are clearer and less error-prone than string paths
-- File operations become cross-platform and composable
-- Encoding/newline behavior is explicit
-"""
+# Technique: pathlib + Explicit File I/O
+# Use When:
+# - `Path` objects are clearer and less error-prone than string paths
+# - File operations become cross-platform and composable
+# - Encoding/newline behavior is explicit
 
 from pathlib import Path
 

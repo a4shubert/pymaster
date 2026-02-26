@@ -1,10 +1,8 @@
-"""
-Technique: Structural Pattern Matching (match/case)
-Use When:
-- Clear handling of variant-shaped inputs
-- Replaces long if/elif chains
-- Works well for parsing commands and events
-"""
+# Technique: Structural Pattern Matching (match/case)
+# Use When:
+# - Clear handling of variant-shaped inputs
+# - Replaces long if/elif chains
+# - Works well for parsing commands and events
 
 def handle_event(event: dict[str, object]) -> str:
     match event:

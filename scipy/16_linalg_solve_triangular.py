@@ -1,8 +1,6 @@
-"""
-Technique: Triangular Solve (solve_triangular)
-Use When:
-- Efficient solves after Cholesky/QR
-"""
+# Technique: Triangular Solve (solve_triangular)
+# Use When:
+# - Efficient solves after Cholesky/QR
 
 import numpy as np
 from scipy.linalg import solve_triangular

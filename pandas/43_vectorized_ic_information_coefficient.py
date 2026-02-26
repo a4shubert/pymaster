@@ -1,9 +1,7 @@
-"""
-Technique: Information Coefficient (IC) per Date (Toy)
-Use When:
-- IC measures signal predictive power (corr(signal_t, return_{t+1}))
-- Common for factor evaluation and monitoring
-"""
+# Technique: Information Coefficient (IC) per Date (Toy)
+# Use When:
+# - IC measures signal predictive power (corr(signal_t, return_{t+1}))
+# - Common for factor evaluation and monitoring
 
 import pandas as pd
 

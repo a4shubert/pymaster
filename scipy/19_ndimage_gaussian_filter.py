@@ -1,8 +1,6 @@
-"""
-Technique: ndimage Gaussian Filter
-Use When:
-- Smooth 2D arrays/images
-"""
+# Technique: ndimage Gaussian Filter
+# Use When:
+# - Smooth 2D arrays/images
 
 import numpy as np
 from scipy.ndimage import gaussian_filter

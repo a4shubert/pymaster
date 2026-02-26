@@ -1,8 +1,6 @@
-"""
-Technique: Special Functions (gamma)
-Use When:
-- Gamma appears in distributions and normalization constants
-"""
+# Technique: Special Functions (gamma)
+# Use When:
+# - Gamma appears in distributions and normalization constants
 
 import numpy as np
 from scipy import special

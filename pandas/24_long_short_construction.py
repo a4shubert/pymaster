@@ -1,9 +1,7 @@
-"""
-Technique: Long/Short Portfolio Construction (Toy)
-Use When:
-- Most equity L/S flows: rank -> pick top/bottom -> equal weight or score weight
-- Important: shift positions to avoid lookahead bias
-"""
+# Technique: Long/Short Portfolio Construction (Toy)
+# Use When:
+# - Most equity L/S flows: rank -> pick top/bottom -> equal weight or score weight
+# - Important: shift positions to avoid lookahead bias
 
 import pandas as pd
 

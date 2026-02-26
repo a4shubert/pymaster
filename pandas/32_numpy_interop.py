@@ -1,9 +1,7 @@
-"""
-Technique: NumPy Interop (Fast Math, Stable Outputs)
-Use When:
-- Many quant transforms are expressed naturally in NumPy
-- Use NumPy for heavy numeric kernels, pandas for alignment/indexing
-"""
+# Technique: NumPy Interop (Fast Math, Stable Outputs)
+# Use When:
+# - Many quant transforms are expressed naturally in NumPy
+# - Use NumPy for heavy numeric kernels, pandas for alignment/indexing
 
 import numpy as np
 import pandas as pd

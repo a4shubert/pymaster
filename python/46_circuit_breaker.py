@@ -1,10 +1,8 @@
-"""
-Technique: Circuit Breaker (Protect Dependencies)
-Use When:
-- Prevents cascading failures when a downstream service is unhealthy
-- Gives the dependency time to recover
-- Improves overall system stability
-"""
+# Technique: Circuit Breaker (Protect Dependencies)
+# Use When:
+# - Prevents cascading failures when a downstream service is unhealthy
+# - Gives the dependency time to recover
+# - Improves overall system stability
 
 import time
 from dataclasses import dataclass

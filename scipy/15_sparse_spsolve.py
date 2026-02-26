@@ -1,8 +1,6 @@
-"""
-Technique: Sparse Linear Solve (spsolve)
-Use When:
-- Solve Ax=b when A is sparse
-"""
+# Technique: Sparse Linear Solve (spsolve)
+# Use When:
+# - Solve Ax=b when A is sparse
 
 import numpy as np
 from scipy import sparse

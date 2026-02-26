@@ -1,8 +1,6 @@
-"""
-Technique: Peak Finding (find_peaks)
-Use When:
-- Detect peaks in a signal
-"""
+# Technique: Peak Finding (find_peaks)
+# Use When:
+# - Detect peaks in a signal
 
 import numpy as np
 from scipy.signal import find_peaks

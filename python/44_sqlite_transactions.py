@@ -1,10 +1,8 @@
-"""
-Technique: Transaction Boundaries (sqlite3)
-Use When:
-- Guarantees data consistency (all-or-nothing changes)
-- Makes failure handling predictable
-- Centralizes commit/rollback logic
-"""
+# Technique: Transaction Boundaries (sqlite3)
+# Use When:
+# - Guarantees data consistency (all-or-nothing changes)
+# - Makes failure handling predictable
+# - Centralizes commit/rollback logic
 
 import sqlite3
 from contextlib import contextmanager

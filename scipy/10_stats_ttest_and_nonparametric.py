@@ -1,9 +1,7 @@
-"""
-Technique: Hypothesis Tests (t-test, Mann-Whitney)
-Use When:
-- Basic statistical tests for research sanity checks
-- Beware multiple testing and dependence
-"""
+# Technique: Hypothesis Tests (t-test, Mann-Whitney)
+# Use When:
+# - Basic statistical tests for research sanity checks
+# - Beware multiple testing and dependence
 
 import numpy as np
 from scipy import stats

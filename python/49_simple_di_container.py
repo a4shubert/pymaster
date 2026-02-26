@@ -1,10 +1,8 @@
-"""
-Technique: Simple Dependency Injection Container
-Use When:
-- Centralizes wiring of services
-- Makes components testable (swap implementations)
-- Helps scale applications as dependencies grow
-"""
+# Technique: Simple Dependency Injection Container
+# Use When:
+# - Centralizes wiring of services
+# - Makes components testable (swap implementations)
+# - Helps scale applications as dependencies grow
 
 from collections.abc import Callable
 

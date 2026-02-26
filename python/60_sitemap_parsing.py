@@ -1,9 +1,7 @@
-"""
-Technique: Parsing XML Sitemaps (sitemap.xml)
-Use When:
-- Sitemaps are a common, crawl-friendly way to discover URLs
-- Namespaces are the main gotcha when parsing
-"""
+# Technique: Parsing XML Sitemaps (sitemap.xml)
+# Use When:
+# - Sitemaps are a common, crawl-friendly way to discover URLs
+# - Namespaces are the main gotcha when parsing
 
 import xml.etree.ElementTree as ET
 

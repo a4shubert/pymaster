@@ -1,9 +1,7 @@
-"""
-Technique: Signal Monitoring Checks (Production Guardrails)
-Use When:
-- Once a signal is live, you monitor stability: missing rates, drift, extremes
-- Cheap checks catch upstream data breaks before trading losses
-"""
+# Technique: Signal Monitoring Checks (Production Guardrails)
+# Use When:
+# - Once a signal is live, you monitor stability: missing rates, drift, extremes
+# - Cheap checks catch upstream data breaks before trading losses
 
 import pandas as pd
 

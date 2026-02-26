@@ -1,10 +1,8 @@
-"""
-Technique: asyncio Basics (Concurrent I/O without Threads)
-Use When:
-- Efficient for many I/O-bound tasks (HTTP calls, DB/network waits)
-- Clear control over concurrency with `await` and task groups
-- Better throughput when tasks spend time waiting
-"""
+# Technique: asyncio Basics (Concurrent I/O without Threads)
+# Use When:
+# - Efficient for many I/O-bound tasks (HTTP calls, DB/network waits)
+# - Clear control over concurrency with `await` and task groups
+# - Better throughput when tasks spend time waiting
 
 import asyncio
 from dataclasses import dataclass

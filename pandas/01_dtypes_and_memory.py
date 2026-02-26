@@ -1,10 +1,8 @@
-"""
-Technique: Dtypes and Memory Discipline (Trading Data at Scale)
-Use When:
-- Market/position data gets large quickly; dtype choices drive latency and cost
-- Use nullable dtypes for clean missing handling without object columns
-- Use categoricals for repeated strings (tickers, venues, sectors)
-"""
+# Technique: Dtypes and Memory Discipline (Trading Data at Scale)
+# Use When:
+# - Market/position data gets large quickly; dtype choices drive latency and cost
+# - Use nullable dtypes for clean missing handling without object columns
+# - Use categoricals for repeated strings (tickers, venues, sectors)
 
 import pandas as pd
 

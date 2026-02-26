@@ -1,10 +1,8 @@
-"""
-Technique: Reading Large CSVs (dtype, parse_dates, chunks)
-Use When:
-- You ingest vendor dumps (ticks, bars, ref data) that can be GBs
-- Correct `dtype` prevents object columns and speeds parsing
-- `chunksize` enables streaming and incremental processing
-"""
+# Technique: Reading Large CSVs (dtype, parse_dates, chunks)
+# Use When:
+# - You ingest vendor dumps (ticks, bars, ref data) that can be GBs
+# - Correct `dtype` prevents object columns and speeds parsing
+# - `chunksize` enables streaming and incremental processing
 
 import io
 import pandas as pd

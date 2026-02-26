@@ -1,10 +1,8 @@
-"""
-Technique: Feature Flags + Percentage Rollout
-Use When:
-- Gradual rollout reduces risk
-- Enables fast rollback without redeploy
-- Supports A/B tests and staged deployments
-"""
+# Technique: Feature Flags + Percentage Rollout
+# Use When:
+# - Gradual rollout reduces risk
+# - Enables fast rollback without redeploy
+# - Supports A/B tests and staged deployments
 
 import hashlib
 from dataclasses import dataclass

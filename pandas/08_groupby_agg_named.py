@@ -1,9 +1,7 @@
-"""
-Technique: groupby + Named Aggregations
-Use When:
-- Summarize exposures by sector, region, book, PM
-- Named aggregations produce clean column names (no MultiIndex columns)
-"""
+# Technique: groupby + Named Aggregations
+# Use When:
+# - Summarize exposures by sector, region, book, PM
+# - Named aggregations produce clean column names (no MultiIndex columns)
 
 import pandas as pd
 

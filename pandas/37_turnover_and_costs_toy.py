@@ -1,9 +1,7 @@
-"""
-Technique: Turnover and Simple Transaction Cost Model (Toy)
-Use When:
-- Gross returns without costs are misleading
-- Turnover is a first-order proxy for costs and capacity
-"""
+# Technique: Turnover and Simple Transaction Cost Model (Toy)
+# Use When:
+# - Gross returns without costs are misleading
+# - Turnover is a first-order proxy for costs and capacity
 
 import pandas as pd
 

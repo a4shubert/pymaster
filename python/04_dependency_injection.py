@@ -1,10 +1,8 @@
-"""
-Technique: Dependency Injection (Design for Testability)
-Use When:
-- Business logic does not hardcode external systems (DB, API, clock, email)
-- You can swap real implementations with fakes in tests
-- Code becomes modular and easier to evolve
-"""
+# Technique: Dependency Injection (Design for Testability)
+# Use When:
+# - Business logic does not hardcode external systems (DB, API, clock, email)
+# - You can swap real implementations with fakes in tests
+# - Code becomes modular and easier to evolve
 
 from dataclasses import dataclass
 from typing import Protocol

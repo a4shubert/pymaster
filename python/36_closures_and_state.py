@@ -1,10 +1,8 @@
-"""
-Technique: Closures (State without Classes)
-Use When:
-- Encapsulates state in a small, testable unit
-- Useful for lightweight counters, memoization, configuration
-- Avoids over-engineering with classes
-"""
+# Technique: Closures (State without Classes)
+# Use When:
+# - Encapsulates state in a small, testable unit
+# - Useful for lightweight counters, memoization, configuration
+# - Avoids over-engineering with classes
 
 from collections.abc import Callable
 

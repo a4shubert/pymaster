@@ -1,9 +1,7 @@
-"""
-Technique: Calendar Alignment (Trading Days vs Calendar Days)
-Use When:
-- Equity markets have holidays; crypto trades 24/7; rates have different calendars
-- Misaligned calendars break backtests and risk
-"""
+# Technique: Calendar Alignment (Trading Days vs Calendar Days)
+# Use When:
+# - Equity markets have holidays; crypto trades 24/7; rates have different calendars
+# - Misaligned calendars break backtests and risk
 
 import pandas as pd
 

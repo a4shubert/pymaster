@@ -1,8 +1,6 @@
-"""
-Technique: Normality Test (Anderson-Darling)
-Use When:
-- Quick check for distributional assumptions
-"""
+# Technique: Normality Test (Anderson-Darling)
+# Use When:
+# - Quick check for distributional assumptions
 
 import numpy as np
 from scipy import stats

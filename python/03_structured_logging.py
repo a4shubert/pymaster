@@ -1,10 +1,8 @@
-"""
-Technique: Structured Logging (Context-Rich, Queryable Logs)
-Use When:
-- Logs are machine-parseable and easier to search in production
-- Every log line carries context (request_id, user_id, item_count, etc.)
-- Failures become diagnosable without reproducing locally
-"""
+# Technique: Structured Logging (Context-Rich, Queryable Logs)
+# Use When:
+# - Logs are machine-parseable and easier to search in production
+# - Every log line carries context (request_id, user_id, item_count, etc.)
+# - Failures become diagnosable without reproducing locally
 
 import logging
 from dataclasses import dataclass

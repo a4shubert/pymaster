@@ -1,10 +1,8 @@
-"""
-Technique: Dunder Methods (__repr__, __str__, ordering)
-Use When:
-- Good __repr__ helps debugging and logging
-- Rich comparisons enable sorting and consistent behavior
-- Value objects behave like values
-"""
+# Technique: Dunder Methods (__repr__, __str__, ordering)
+# Use When:
+# - Good __repr__ helps debugging and logging
+# - Rich comparisons enable sorting and consistent behavior
+# - Value objects behave like values
 
 from dataclasses import dataclass
 

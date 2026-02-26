@@ -1,8 +1,6 @@
-"""
-Technique: Bootstrap Confidence Interval
-Use When:
-- Resampling-based CI; useful with unknown distributions
-"""
+# Technique: Bootstrap Confidence Interval
+# Use When:
+# - Resampling-based CI; useful with unknown distributions
 
 import numpy as np
 from scipy import stats

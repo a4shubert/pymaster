@@ -1,8 +1,6 @@
-"""
-Technique: Pairwise Distances (cdist)
-Use When:
-- Distance matrices for clustering/NN
-"""
+# Technique: Pairwise Distances (cdist)
+# Use When:
+# - Distance matrices for clustering/NN
 
 import numpy as np
 from scipy.spatial.distance import cdist

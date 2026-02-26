@@ -1,9 +1,7 @@
-"""
-Technique: Missing Data (dropna, fillna, ffill) for Time Series
-Use When:
-- Corporate actions, trading halts, and vendor gaps create missing values
-- You need explicit rules per dataset (prices vs fundamentals vs signals)
-"""
+# Technique: Missing Data (dropna, fillna, ffill) for Time Series
+# Use When:
+# - Corporate actions, trading halts, and vendor gaps create missing values
+# - You need explicit rules per dataset (prices vs fundamentals vs signals)
 
 import pandas as pd
 

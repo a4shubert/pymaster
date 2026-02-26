@@ -1,8 +1,6 @@
-"""
-Technique: Shape-Preserving Interpolation (PCHIP)
-Use When:
-- Monotone interpolation useful for curves (rates) to avoid overshoot
-"""
+# Technique: Shape-Preserving Interpolation (PCHIP)
+# Use When:
+# - Monotone interpolation useful for curves (rates) to avoid overshoot
 
 import numpy as np
 from scipy.interpolate import PchipInterpolator

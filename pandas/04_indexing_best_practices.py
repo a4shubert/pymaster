@@ -1,9 +1,7 @@
-"""
-Technique: Indexing Best Practices (DatetimeIndex, MultiIndex)
-Use When:
-- Time series operations (resample/rolling) are easiest with DatetimeIndex
-- Panel data (date x asset) is natural with MultiIndex
-"""
+# Technique: Indexing Best Practices (DatetimeIndex, MultiIndex)
+# Use When:
+# - Time series operations (resample/rolling) are easiest with DatetimeIndex
+# - Panel data (date x asset) is natural with MultiIndex
 
 import pandas as pd
 

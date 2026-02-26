@@ -1,8 +1,6 @@
-"""
-Technique: 1D Root Finding (bisect)
-Use When:
-- Reliable bracketing root method
-"""
+# Technique: 1D Root Finding (bisect)
+# Use When:
+# - Reliable bracketing root method
 
 from scipy.optimize import bisect
 

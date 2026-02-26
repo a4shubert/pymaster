@@ -1,10 +1,8 @@
-"""
-Technique: Functional Error Handling (Result Pattern)
-Use When:
-- Makes success/failure explicit in return types
-- Avoids using exceptions for expected control flow
-- Works well in pipelines and batch processing
-"""
+# Technique: Functional Error Handling (Result Pattern)
+# Use When:
+# - Makes success/failure explicit in return types
+# - Avoids using exceptions for expected control flow
+# - Works well in pipelines and batch processing
 
 from dataclasses import dataclass
 

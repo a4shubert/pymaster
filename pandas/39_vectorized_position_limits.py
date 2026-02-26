@@ -1,9 +1,7 @@
-"""
-Technique: Vectorized Position Limits (Clipping Weights)
-Use When:
-- Constraints (per-name, gross/net exposure) are central in real portfolios
-- First pass can clip per-name weights before more advanced optimization
-"""
+# Technique: Vectorized Position Limits (Clipping Weights)
+# Use When:
+# - Constraints (per-name, gross/net exposure) are central in real portfolios
+# - First pass can clip per-name weights before more advanced optimization
 
 import pandas as pd
 

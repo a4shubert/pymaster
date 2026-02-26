@@ -1,9 +1,7 @@
-"""
-Technique: Weighted Averages + Exposure Attribution
-Use When:
-- Portfolio-level metrics are weighted by positions
-- Exposure decomposition by sector/book is core reporting
-"""
+# Technique: Weighted Averages + Exposure Attribution
+# Use When:
+# - Portfolio-level metrics are weighted by positions
+# - Exposure decomposition by sector/book is core reporting
 
 import pandas as pd
 

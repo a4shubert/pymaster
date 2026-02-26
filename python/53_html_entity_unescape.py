@@ -1,9 +1,7 @@
-"""
-Technique: HTML Entity Handling with html.unescape
-Use When:
-- Web pages often contain entities (&amp;, &lt;, &quot;)
-- You typically want to decode entities before processing text
-"""
+# Technique: HTML Entity Handling with html.unescape
+# Use When:
+# - Web pages often contain entities (&amp;, &lt;, &quot;)
+# - You typically want to decode entities before processing text
 
 import html
 

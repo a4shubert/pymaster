@@ -1,9 +1,7 @@
-"""
-Technique: Data Validation Checks (Cheap Guardrails)
-Use When:
-- Silent data issues (duplicates, missing keys) destroy PnL credibility
-- Lightweight assertions catch issues early in notebooks/ETL
-"""
+# Technique: Data Validation Checks (Cheap Guardrails)
+# Use When:
+# - Silent data issues (duplicates, missing keys) destroy PnL credibility
+# - Lightweight assertions catch issues early in notebooks/ETL
 
 import pandas as pd
 

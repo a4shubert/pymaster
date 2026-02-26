@@ -1,9 +1,7 @@
-"""
-Technique: Vectorized PnL (Signals -> Positions -> Returns)
-Use When:
-- Fast research iteration requires vectorized backtests
-- A common pattern: signal -> position (shift to avoid lookahead) -> PnL
-"""
+# Technique: Vectorized PnL (Signals -> Positions -> Returns)
+# Use When:
+# - Fast research iteration requires vectorized backtests
+# - A common pattern: signal -> position (shift to avoid lookahead) -> PnL
 
 import pandas as pd
 

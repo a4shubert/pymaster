@@ -1,9 +1,7 @@
-"""
-Technique: percentile/quantile (risk percentiles)
-Use When:
-- Intermediate/advanced NumPy techniques with a quant/finance bias
-- Each file is runnable and uses only NumPy + stdlib
-"""
+# Technique: percentile/quantile (risk percentiles)
+# Use When:
+# - Intermediate/advanced NumPy techniques with a quant/finance bias
+# - Each file is runnable and uses only NumPy + stdlib
 
 import numpy as np
 

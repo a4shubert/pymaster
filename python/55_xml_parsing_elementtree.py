@@ -1,9 +1,7 @@
-"""
-Technique: XML Parsing with xml.etree.ElementTree
-Use When:
-- XML is still common in enterprise integrations (feeds, legacy APIs)
-- ElementTree provides a safe, structured parser
-"""
+# Technique: XML Parsing with xml.etree.ElementTree
+# Use When:
+# - XML is still common in enterprise integrations (feeds, legacy APIs)
+# - ElementTree provides a safe, structured parser
 
 import xml.etree.ElementTree as ET
 

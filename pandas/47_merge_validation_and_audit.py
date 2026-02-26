@@ -1,9 +1,7 @@
-"""
-Technique: Merge Validation + Audit (Avoid Row Explosions)
-Use When:
-- Joining positions to ref data can silently explode if keys aren't unique
-- Use `validate` and `_merge` indicators to catch errors early
-"""
+# Technique: Merge Validation + Audit (Avoid Row Explosions)
+# Use When:
+# - Joining positions to ref data can silently explode if keys aren't unique
+# - Use `validate` and `_merge` indicators to catch errors early
 
 import pandas as pd
 

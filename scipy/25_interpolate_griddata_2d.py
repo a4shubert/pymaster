@@ -1,8 +1,6 @@
-"""
-Technique: 2D Interpolation (griddata)
-Use When:
-- Interpolate scattered points (toy vol surface points)
-"""
+# Technique: 2D Interpolation (griddata)
+# Use When:
+# - Interpolate scattered points (toy vol surface points)
 
 import numpy as np
 from scipy.interpolate import griddata

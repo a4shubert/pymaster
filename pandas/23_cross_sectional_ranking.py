@@ -1,9 +1,7 @@
-"""
-Technique: Cross-Sectional Ranking (Signals)
-Use When:
-- Many strategies rank assets daily (momentum, value, quality)
-- Ranks are robust to outliers compared to raw values
-"""
+# Technique: Cross-Sectional Ranking (Signals)
+# Use When:
+# - Many strategies rank assets daily (momentum, value, quality)
+# - Ranks are robust to outliers compared to raw values
 
 import pandas as pd
 

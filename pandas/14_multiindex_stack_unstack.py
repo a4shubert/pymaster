@@ -1,9 +1,7 @@
-"""
-Technique: MultiIndex, stack/unstack (Panel Data)
-Use When:
-- A common representation is (date, ticker) -> fields
-- stack/unstack reshapes between panel (MultiIndex) and matrix forms
-"""
+# Technique: MultiIndex, stack/unstack (Panel Data)
+# Use When:
+# - A common representation is (date, ticker) -> fields
+# - stack/unstack reshapes between panel (MultiIndex) and matrix forms
 
 import pandas as pd
 

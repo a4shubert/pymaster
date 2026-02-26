@@ -1,10 +1,8 @@
-"""
-Technique: Immutable Data (Safer by Default)
-Use When:
-- Reduces bugs from shared mutable state
-- Makes functions easier to reason about
-- Fits naturally with concurrency
-"""
+# Technique: Immutable Data (Safer by Default)
+# Use When:
+# - Reduces bugs from shared mutable state
+# - Makes functions easier to reason about
+# - Fits naturally with concurrency
 
 from dataclasses import dataclass
 

@@ -1,8 +1,6 @@
-"""
-Technique: KMeans Clustering
-Use When:
-- Basic clustering via scipy.cluster.vq
-"""
+# Technique: KMeans Clustering
+# Use When:
+# - Basic clustering via scipy.cluster.vq
 
 import numpy as np
 from scipy.cluster.vq import kmeans2

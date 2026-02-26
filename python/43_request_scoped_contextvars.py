@@ -1,10 +1,8 @@
-"""
-Technique: Request-Scoped Context with contextvars
-Use When:
-- Attaches correlation IDs to logs without passing params everywhere
-- Works correctly across async tasks
-- Supports tracing and debugging in distributed systems
-"""
+# Technique: Request-Scoped Context with contextvars
+# Use When:
+# - Attaches correlation IDs to logs without passing params everywhere
+# - Works correctly across async tasks
+# - Supports tracing and debugging in distributed systems
 
 import logging
 from contextlib import contextmanager

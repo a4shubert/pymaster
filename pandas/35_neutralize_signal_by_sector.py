@@ -1,9 +1,7 @@
-"""
-Technique: Sector Neutralization (Demean within Group)
-Use When:
-- Removes sector tilts from signals
-- Often used as a cheap, robust neutralization step
-"""
+# Technique: Sector Neutralization (Demean within Group)
+# Use When:
+# - Removes sector tilts from signals
+# - Often used as a cheap, robust neutralization step
 
 import pandas as pd
 

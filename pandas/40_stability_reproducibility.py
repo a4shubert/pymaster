@@ -1,9 +1,7 @@
-"""
-Technique: Stability + Reproducibility (Determinism)
-Use When:
-- Research must be reproducible to be trusted
-- Deterministic outputs reduce debugging time and deployment risk
-"""
+# Technique: Stability + Reproducibility (Determinism)
+# Use When:
+# - Research must be reproducible to be trusted
+# - Deterministic outputs reduce debugging time and deployment risk
 
 import numpy as np
 import pandas as pd

@@ -1,9 +1,7 @@
-"""
-Technique: Normalize Within Groups (Sector-Neutral Signals)
-Use When:
-- Sector-neutral ranking reduces unintended factor exposure
-- You frequently normalize within sector, industry, or region
-"""
+# Technique: Normalize Within Groups (Sector-Neutral Signals)
+# Use When:
+# - Sector-neutral ranking reduces unintended factor exposure
+# - You frequently normalize within sector, industry, or region
 
 import pandas as pd
 

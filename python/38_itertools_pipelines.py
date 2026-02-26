@@ -1,10 +1,8 @@
-"""
-Technique: itertools Pipelines (Lazy, Composable Data Processing)
-Use When:
-- Efficient for large sequences (lazy evaluation)
-- Powerful building blocks for data pipelines
-- Keeps memory usage low
-"""
+# Technique: itertools Pipelines (Lazy, Composable Data Processing)
+# Use When:
+# - Efficient for large sequences (lazy evaluation)
+# - Powerful building blocks for data pipelines
+# - Keeps memory usage low
 
 import itertools
 

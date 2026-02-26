@@ -1,8 +1,6 @@
-"""
-Technique: Connected Components (ndimage.label)
-Use When:
-- Label connected regions in a binary matrix
-"""
+# Technique: Connected Components (ndimage.label)
+# Use When:
+# - Label connected regions in a binary matrix
 
 import numpy as np
 from scipy.ndimage import label

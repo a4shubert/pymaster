@@ -1,10 +1,8 @@
-"""
-Technique: Unit Testing with pytest (Fast, Focused, Deterministic)
-Use When:
-- Tests verify behavior and protect against regressions
-- Unit tests run fast because they isolate one unit of logic
-- Parametrization reduces repetitive test code
-"""
+# Technique: Unit Testing with pytest (Fast, Focused, Deterministic)
+# Use When:
+# - Tests verify behavior and protect against regressions
+# - Unit tests run fast because they isolate one unit of logic
+# - Parametrization reduces repetitive test code
 
 from dataclasses import dataclass
 

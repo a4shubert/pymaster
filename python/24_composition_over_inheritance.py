@@ -1,10 +1,8 @@
-"""
-Technique: Composition Over Inheritance
-Use When:
-- Inheritance is strong coupling; composition stays flexible
-- Behaviors can be swapped at runtime (policies/strategies)
-- Avoids fragile base-class problems
-"""
+# Technique: Composition Over Inheritance
+# Use When:
+# - Inheritance is strong coupling; composition stays flexible
+# - Behaviors can be swapped at runtime (policies/strategies)
+# - Avoids fragile base-class problems
 
 from dataclasses import dataclass
 from typing import Protocol

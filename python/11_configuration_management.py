@@ -1,10 +1,8 @@
-"""
-Technique: Configuration Management (Single Source of Runtime Settings)
-Use When:
-- Keeps environment-specific values out of business logic
-- Makes local/dev/prod behavior explicit and auditable
-- Fails fast when required config is missing
-"""
+# Technique: Configuration Management (Single Source of Runtime Settings)
+# Use When:
+# - Keeps environment-specific values out of business logic
+# - Makes local/dev/prod behavior explicit and auditable
+# - Fails fast when required config is missing
 
 import os
 from dataclasses import dataclass

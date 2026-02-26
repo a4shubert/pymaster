@@ -1,10 +1,8 @@
-"""
-Technique: functools.partial (Practical Currying)
-Use When:
-- Pre-binds arguments to create specialized functions
-- Reduces repetitive parameter passing
-- Creates clearer APIs for pipelines
-"""
+# Technique: functools.partial (Practical Currying)
+# Use When:
+# - Pre-binds arguments to create specialized functions
+# - Reduces repetitive parameter passing
+# - Creates clearer APIs for pipelines
 
 from functools import partial
 

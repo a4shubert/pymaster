@@ -1,9 +1,7 @@
-"""
-Technique: groupby transform vs apply (Performance + Correctness)
-Use When:
-- Cross-sectional normalization (z-scores) should keep original shape
-- `transform` returns same length as input; `apply` can change shape
-"""
+# Technique: groupby transform vs apply (Performance + Correctness)
+# Use When:
+# - Cross-sectional normalization (z-scores) should keep original shape
+# - `transform` returns same length as input; `apply` can change shape
 
 import pandas as pd
 

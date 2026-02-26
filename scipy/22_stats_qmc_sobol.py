@@ -1,8 +1,6 @@
-"""
-Technique: Quasi-Monte Carlo (Sobol)
-Use When:
-- Low-discrepancy sequences for faster convergence (when applicable)
-"""
+# Technique: Quasi-Monte Carlo (Sobol)
+# Use When:
+# - Low-discrepancy sequences for faster convergence (when applicable)
 
 from scipy.stats import qmc
 

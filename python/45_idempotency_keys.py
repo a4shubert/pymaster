@@ -1,10 +1,8 @@
-"""
-Technique: Idempotency Keys for Safe Retries
-Use When:
-- Prevents double-processing when clients retry requests
-- Makes APIs safe under timeouts and network failures
-- Improves correctness in payment/order flows
-"""
+# Technique: Idempotency Keys for Safe Retries
+# Use When:
+# - Prevents double-processing when clients retry requests
+# - Makes APIs safe under timeouts and network failures
+# - Improves correctness in payment/order flows
 
 import sqlite3
 from dataclasses import dataclass

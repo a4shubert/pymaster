@@ -1,8 +1,6 @@
-"""
-Technique: Rotations (spatial.transform.Rotation)
-Use When:
-- Demonstrates clean rotation APIs
-"""
+# Technique: Rotations (spatial.transform.Rotation)
+# Use When:
+# - Demonstrates clean rotation APIs
 
 import numpy as np
 from scipy.spatial.transform import Rotation

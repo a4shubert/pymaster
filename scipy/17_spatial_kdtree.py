@@ -1,8 +1,6 @@
-"""
-Technique: KDTree Nearest Neighbors
-Use When:
-- Fast nearest neighbor queries
-"""
+# Technique: KDTree Nearest Neighbors
+# Use When:
+# - Fast nearest neighbor queries
 
 import numpy as np
 from scipy.spatial import KDTree

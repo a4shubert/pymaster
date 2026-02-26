@@ -1,10 +1,8 @@
-"""
-Technique: Dataclasses with slots (Memory + Attribute Safety)
-Use When:
-- `slots=True` reduces per-instance overhead for many objects
-- Prevents accidental attribute creation (typos become errors)
-- Works well for large collections of objects
-"""
+# Technique: Dataclasses with slots (Memory + Attribute Safety)
+# Use When:
+# - `slots=True` reduces per-instance overhead for many objects
+# - Prevents accidental attribute creation (typos become errors)
+# - Works well for large collections of objects
 
 from dataclasses import dataclass
 

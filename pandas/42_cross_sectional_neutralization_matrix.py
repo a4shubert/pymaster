@@ -1,9 +1,7 @@
-"""
-Technique: Cross-Sectional Neutralization (Demean Matrix)
-Use When:
-- A cheap neutralization step is to remove the per-date mean
-- Helps reduce unwanted net exposure when signals are biased
-"""
+# Technique: Cross-Sectional Neutralization (Demean Matrix)
+# Use When:
+# - A cheap neutralization step is to remove the per-date mean
+# - Helps reduce unwanted net exposure when signals are biased
 
 import pandas as pd
 

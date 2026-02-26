@@ -1,10 +1,8 @@
-"""
-Technique: Context Manager as a Class (__enter__/__exit__)
-Use When:
-- Stateful context managers are sometimes clearer than generator-based
-- Useful for resource objects (connections, locks, tracing spans)
-- __exit__ controls whether exceptions are suppressed
-"""
+# Technique: Context Manager as a Class (__enter__/__exit__)
+# Use When:
+# - Stateful context managers are sometimes clearer than generator-based
+# - Useful for resource objects (connections, locks, tracing spans)
+# - __exit__ controls whether exceptions are suppressed
 
 from __future__ import annotations
 

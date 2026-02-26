@@ -1,9 +1,7 @@
-"""
-Technique: Splines (UnivariateSpline)
-Use When:
-- Smooth noisy observations with a smoothing parameter
-- Useful for curve smoothing in noisy data
-"""
+# Technique: Splines (UnivariateSpline)
+# Use When:
+# - Smooth noisy observations with a smoothing parameter
+# - Useful for curve smoothing in noisy data
 
 import numpy as np
 from scipy.interpolate import UnivariateSpline

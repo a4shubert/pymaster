@@ -1,9 +1,7 @@
-"""
-Technique: robots.txt Parsing with urllib.robotparser
-Use When:
-- Basic politeness and compliance for scraping
-- Quickly checks whether a URL is allowed for a user-agent
-"""
+# Technique: robots.txt Parsing with urllib.robotparser
+# Use When:
+# - Basic politeness and compliance for scraping
+# - Quickly checks whether a URL is allowed for a user-agent
 
 from urllib.robotparser import RobotFileParser
 

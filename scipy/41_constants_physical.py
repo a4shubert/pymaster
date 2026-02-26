@@ -1,8 +1,6 @@
-"""
-Technique: scipy.constants (sanity constants)
-Use When:
-- Standard constants (mostly not finance, but useful pattern)
-"""
+# Technique: scipy.constants (sanity constants)
+# Use When:
+# - Standard constants (mostly not finance, but useful pattern)
 
 from scipy import constants
 

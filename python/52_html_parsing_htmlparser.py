@@ -1,9 +1,7 @@
-"""
-Technique: HTML Parsing with html.parser (Standard Library)
-Use When:
-- Avoids brittle regex parsing for HTML
-- Good for simple scraping/extraction tasks
-"""
+# Technique: HTML Parsing with html.parser (Standard Library)
+# Use When:
+# - Avoids brittle regex parsing for HTML
+# - Good for simple scraping/extraction tasks
 
 from html.parser import HTMLParser
 

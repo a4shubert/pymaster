@@ -1,10 +1,8 @@
-"""
-Technique: HTTP Client Wrapper Pattern
-Use When:
-- Centralizes timeout, headers, retries, and error mapping
-- Keeps endpoint callers thin and consistent
-- Makes integration points easy to mock in tests
-"""
+# Technique: HTTP Client Wrapper Pattern
+# Use When:
+# - Centralizes timeout, headers, retries, and error mapping
+# - Keeps endpoint callers thin and consistent
+# - Makes integration points easy to mock in tests
 
 from dataclasses import dataclass
 

@@ -1,10 +1,8 @@
-"""
-Technique: Type Narrowing and Type Guards
-Use When:
-- Reduces runtime type errors
-- Lets static checkers prove safety after validation
-- Makes heterogeneous input handling explicit
-"""
+# Technique: Type Narrowing and Type Guards
+# Use When:
+# - Reduces runtime type errors
+# - Lets static checkers prove safety after validation
+# - Makes heterogeneous input handling explicit
 
 from typing import Any, TypeGuard
 

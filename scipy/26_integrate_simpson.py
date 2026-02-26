@@ -1,8 +1,6 @@
-"""
-Technique: Simpson Integration (samples)
-Use When:
-- Integrate sampled data
-"""
+# Technique: Simpson Integration (samples)
+# Use When:
+# - Integrate sampled data
 
 import numpy as np
 from scipy.integrate import simpson

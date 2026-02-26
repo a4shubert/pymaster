@@ -1,9 +1,7 @@
-"""
-Technique: JSON Parsing + Lightweight Validation
-Use When:
-- Most web APIs are JSON
-- Parsing is easy; validating shape/types is where production bugs happen
-"""
+# Technique: JSON Parsing + Lightweight Validation
+# Use When:
+# - Most web APIs are JSON
+# - Parsing is easy; validating shape/types is where production bugs happen
 
 import json
 from dataclasses import dataclass

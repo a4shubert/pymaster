@@ -1,10 +1,8 @@
-"""
-Technique: Generators for Streaming Data
-Use When:
-- Processes large inputs lazily instead of loading everything in memory
-- Keeps pipelines composable and efficient
-- Simplifies line-by-line or record-by-record processing
-"""
+# Technique: Generators for Streaming Data
+# Use When:
+# - Processes large inputs lazily instead of loading everything in memory
+# - Keeps pipelines composable and efficient
+# - Simplifies line-by-line or record-by-record processing
 
 from collections.abc import Iterable, Iterator
 

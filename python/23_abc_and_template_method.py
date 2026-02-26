@@ -1,10 +1,8 @@
-"""
-Technique: ABC + Template Method
-Use When:
-- One stable workflow is implemented once
-- Subclasses customize only specific steps
-- Keeps rules consistent and reduces duplication
-"""
+# Technique: ABC + Template Method
+# Use When:
+# - One stable workflow is implemented once
+# - Subclasses customize only specific steps
+# - Keeps rules consistent and reduces duplication
 
 from abc import ABC, abstractmethod
 

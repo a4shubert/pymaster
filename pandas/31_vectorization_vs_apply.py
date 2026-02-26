@@ -1,9 +1,7 @@
-"""
-Technique: Vectorization vs apply (Speed for Research -> Prod)
-Use When:
-- The difference between vectorized ops and row-wise apply can be minutes vs seconds
-- Prefer NumPy/pandas vector ops; reserve apply for unavoidable Python logic
-"""
+# Technique: Vectorization vs apply (Speed for Research -> Prod)
+# Use When:
+# - The difference between vectorized ops and row-wise apply can be minutes vs seconds
+# - Prefer NumPy/pandas vector ops; reserve apply for unavoidable Python logic
 
 import pandas as pd
 

@@ -1,9 +1,7 @@
-"""
-Technique: groupby + rolling (Per-Asset Rolling Metrics)
-Use When:
-- Compute rolling vol per ticker across dates
-- Avoid Python loops by using groupby+rolling
-"""
+# Technique: groupby + rolling (Per-Asset Rolling Metrics)
+# Use When:
+# - Compute rolling vol per ticker across dates
+# - Avoid Python loops by using groupby+rolling
 
 import pandas as pd
 

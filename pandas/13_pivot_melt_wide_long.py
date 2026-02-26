@@ -1,9 +1,7 @@
-"""
-Technique: Wide vs Long (pivot, pivot_table, melt)
-Use When:
-- Research often needs wide matrices (date x ticker returns)
-- Storage/ETL often prefers long format (tidy records)
-"""
+# Technique: Wide vs Long (pivot, pivot_table, melt)
+# Use When:
+# - Research often needs wide matrices (date x ticker returns)
+# - Storage/ETL often prefers long format (tidy records)
 
 import pandas as pd
 

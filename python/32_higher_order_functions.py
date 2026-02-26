@@ -1,10 +1,8 @@
-"""
-Technique: Higher-Order Functions (Functions that Take/Return Functions)
-Use When:
-- Lets you inject behavior without inheritance
-- Enables reusable transformations and policies
-- Keeps code declarative and composable
-"""
+# Technique: Higher-Order Functions (Functions that Take/Return Functions)
+# Use When:
+# - Lets you inject behavior without inheritance
+# - Enables reusable transformations and policies
+# - Keeps code declarative and composable
 
 from collections.abc import Callable
 

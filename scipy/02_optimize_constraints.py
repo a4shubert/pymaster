@@ -1,9 +1,7 @@
-"""
-Technique: Constrained Optimization (bounds + constraints)
-Use When:
-- Bounds and linear/nonlinear constraints
-- Typical for portfolio constraints and calibration
-"""
+# Technique: Constrained Optimization (bounds + constraints)
+# Use When:
+# - Bounds and linear/nonlinear constraints
+# - Typical for portfolio constraints and calibration
 
 import numpy as np
 from scipy import optimize

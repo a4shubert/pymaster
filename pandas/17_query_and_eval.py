@@ -1,9 +1,7 @@
-"""
-Technique: query/eval for Fast, Readable Filtering
-Use When:
-- Analysts write lots of filters (liquidity, borrow cost, universe rules)
-- `query` reads closer to a DSL and can be faster than chained masks
-"""
+# Technique: query/eval for Fast, Readable Filtering
+# Use When:
+# - Analysts write lots of filters (liquidity, borrow cost, universe rules)
+# - `query` reads closer to a DSL and can be faster than chained masks
 
 import pandas as pd
 

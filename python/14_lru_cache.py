@@ -1,10 +1,8 @@
-"""
-Technique: Caching with functools.lru_cache
-Use When:
-- Avoids repeating expensive pure computations
-- Improves latency with minimal code
-- Makes performance tuning explicit and bounded
-"""
+# Technique: Caching with functools.lru_cache
+# Use When:
+# - Avoids repeating expensive pure computations
+# - Improves latency with minimal code
+# - Makes performance tuning explicit and bounded
 
 import time
 from functools import lru_cache

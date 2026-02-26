@@ -1,9 +1,7 @@
-"""
-Technique: Benchmark-Relative Returns (Alpha)
-Use When:
-- Many reports are relative to a benchmark (SPX, sector index)
-- Requires careful date alignment
-"""
+# Technique: Benchmark-Relative Returns (Alpha)
+# Use When:
+# - Many reports are relative to a benchmark (SPX, sector index)
+# - Requires careful date alignment
 
 import pandas as pd
 

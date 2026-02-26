@@ -1,10 +1,8 @@
-"""
-Technique: Health Checks (Liveness vs Readiness)
-Use When:
-- Orchestrators (Kubernetes, ECS) rely on health endpoints
-- Liveness: process is running
-- Readiness: process can serve traffic (deps available)
-"""
+# Technique: Health Checks (Liveness vs Readiness)
+# Use When:
+# - Orchestrators (Kubernetes, ECS) rely on health endpoints
+# - Liveness: process is running
+# - Readiness: process can serve traffic (deps available)
 
 import sqlite3
 from dataclasses import dataclass

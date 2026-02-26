@@ -1,8 +1,6 @@
-"""
-Technique: Correlation (signal.correlate)
-Use When:
-- Cross-correlation for lag relationships
-"""
+# Technique: Correlation (signal.correlate)
+# Use When:
+# - Cross-correlation for lag relationships
 
 import numpy as np
 from scipy.signal import correlate

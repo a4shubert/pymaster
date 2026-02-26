@@ -1,8 +1,6 @@
-"""
-Technique: FFT (scipy.fft)
-Use When:
-- Real FFT and frequency bins
-"""
+# Technique: FFT (scipy.fft)
+# Use When:
+# - Real FFT and frequency bins
 
 import numpy as np
 from scipy.fft import rfft, rfftfreq

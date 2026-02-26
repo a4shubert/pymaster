@@ -1,8 +1,6 @@
-"""
-Technique: Matrix Exponential (expm)
-Use When:
-- Used in continuous-time models and Markov chains
-"""
+# Technique: Matrix Exponential (expm)
+# Use When:
+# - Used in continuous-time models and Markov chains
 
 import numpy as np
 from scipy.linalg import expm

@@ -1,9 +1,7 @@
-"""
-Technique: Resampling to Bars (OHLC) and VWAP
-Use When:
-- You often convert irregular trades to fixed interval bars
-- OHLC bars and VWAP are standard downstream inputs
-"""
+# Technique: Resampling to Bars (OHLC) and VWAP
+# Use When:
+# - You often convert irregular trades to fixed interval bars
+# - OHLC bars and VWAP are standard downstream inputs
 
 import pandas as pd
 

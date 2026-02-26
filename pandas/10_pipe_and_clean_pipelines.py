@@ -1,9 +1,7 @@
-"""
-Technique: pipe for Clean Data Pipelines
-Use When:
-- Research code becomes production-like when pipelines are explicit
-- `pipe` reduces intermediate variables and encourages reusable steps
-"""
+# Technique: pipe for Clean Data Pipelines
+# Use When:
+# - Research code becomes production-like when pipelines are explicit
+# - `pipe` reduces intermediate variables and encourages reusable steps
 
 import pandas as pd
 

@@ -1,9 +1,7 @@
-"""
-Technique: Numerical Integration (quad)
-Use When:
-- Integrate functions with error estimates
-- Used in pricing and probability calculations
-"""
+# Technique: Numerical Integration (quad)
+# Use When:
+# - Integrate functions with error estimates
+# - Used in pricing and probability calculations
 
 import numpy as np
 from scipy import integrate

@@ -1,8 +1,6 @@
-"""
-Technique: Signal Filtering (Butterworth)
-Use When:
-- Low/high-pass filtering with scipy.signal
-"""
+# Technique: Signal Filtering (Butterworth)
+# Use When:
+# - Low/high-pass filtering with scipy.signal
 
 import numpy as np
 from scipy import signal

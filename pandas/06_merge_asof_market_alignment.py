@@ -1,9 +1,7 @@
-"""
-Technique: merge_asof (Align Trades to Quotes/Bars)
-Use When:
-- You often need the last known quote before a trade (or a bar close)
-- Regular merge fails because timestamps rarely match exactly
-"""
+# Technique: merge_asof (Align Trades to Quotes/Bars)
+# Use When:
+# - You often need the last known quote before a trade (or a bar close)
+# - Regular merge fails because timestamps rarely match exactly
 
 import pandas as pd
 

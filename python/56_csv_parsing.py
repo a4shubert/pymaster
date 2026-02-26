@@ -1,9 +1,7 @@
-"""
-Technique: CSV Parsing with csv.DictReader
-Use When:
-- Web exports and integrations often deliver CSV
-- DictReader handles headers and quoting correctly
-"""
+# Technique: CSV Parsing with csv.DictReader
+# Use When:
+# - Web exports and integrations often deliver CSV
+# - DictReader handles headers and quoting correctly
 
 import csv
 import io

@@ -1,10 +1,8 @@
-"""
-Technique: Professional Project Structure
-Use When:
-- Separates concerns (domain, infra, interfaces)
-- Improves onboarding and discoverability
-- Scales better as codebase size grows
-"""
+# Technique: Professional Project Structure
+# Use When:
+# - Separates concerns (domain, infra, interfaces)
+# - Improves onboarding and discoverability
+# - Scales better as codebase size grows
 
 PROJECT_LAYOUT = {
     "src/pymaster/domain/": ["models.py", "services.py"],

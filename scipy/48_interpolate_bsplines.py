@@ -1,8 +1,6 @@
-"""
-Technique: B-splines (BSpline)
-Use When:
-- Low-level spline representation
-"""
+# Technique: B-splines (BSpline)
+# Use When:
+# - Low-level spline representation
 
 import numpy as np
 from scipy.interpolate import BSpline

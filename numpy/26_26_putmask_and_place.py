@@ -1,9 +1,7 @@
-"""
-Technique: putmask / place (in-place conditional updates)
-Use When:
-- Intermediate/advanced NumPy techniques with a quant/finance bias
-- Each file is runnable and uses only NumPy + stdlib
-"""
+# Technique: putmask / place (in-place conditional updates)
+# Use When:
+# - Intermediate/advanced NumPy techniques with a quant/finance bias
+# - Each file is runnable and uses only NumPy + stdlib
 
 import numpy as np
 

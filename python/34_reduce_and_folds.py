@@ -1,10 +1,8 @@
-"""
-Technique: reduce (Folds) for Aggregation
-Use When:
-- Captures aggregation logic as a single expression
-- Useful when building up a value with a clear accumulator
-- Works well with immutable accumulator patterns
-"""
+# Technique: reduce (Folds) for Aggregation
+# Use When:
+# - Captures aggregation logic as a single expression
+# - Useful when building up a value with a clear accumulator
+# - Works well with immutable accumulator patterns
 
 from functools import reduce
 

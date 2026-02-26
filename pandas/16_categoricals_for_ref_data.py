@@ -1,9 +1,7 @@
-"""
-Technique: Categoricals for Reference Data (Speed + Memory)
-Use When:
-- Repeated strings (ticker, sector, venue, book) are common and expensive
-- Categoricals compress memory and speed groupby operations
-"""
+# Technique: Categoricals for Reference Data (Speed + Memory)
+# Use When:
+# - Repeated strings (ticker, sector, venue, book) are common and expensive
+# - Categoricals compress memory and speed groupby operations
 
 import pandas as pd
 

@@ -1,10 +1,8 @@
-"""
-Technique: @classmethod Factories (Multiple Constructors)
-Use When:
-- Object creation rules stay centralized
-- Intent is explicit (from_env, from_json, from_dsn)
-- Constructor changes can remain backwards-compatible
-"""
+# Technique: @classmethod Factories (Multiple Constructors)
+# Use When:
+# - Object creation rules stay centralized
+# - Intent is explicit (from_env, from_json, from_dsn)
+# - Constructor changes can remain backwards-compatible
 
 import os
 from dataclasses import dataclass

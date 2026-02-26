@@ -1,9 +1,7 @@
-"""
-Technique: Wide Returns Matrix + Alignment Discipline
-Use When:
-- Many risk/signal ops assume a (date x ticker) matrix
-- Alignment errors are the #1 silent bug in matrix-based work
-"""
+# Technique: Wide Returns Matrix + Alignment Discipline
+# Use When:
+# - Many risk/signal ops assume a (date x ticker) matrix
+# - Alignment errors are the #1 silent bug in matrix-based work
 
 import pandas as pd
 

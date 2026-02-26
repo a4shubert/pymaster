@@ -1,10 +1,8 @@
-"""
-Technique: Repository Pattern with sqlite3
-Use When:
-- Keeps SQL access isolated from business logic
-- Enables easier testing and future DB migration
-- Defines clear persistence boundaries
-"""
+# Technique: Repository Pattern with sqlite3
+# Use When:
+# - Keeps SQL access isolated from business logic
+# - Enables easier testing and future DB migration
+# - Defines clear persistence boundaries
 
 import sqlite3
 from dataclasses import dataclass

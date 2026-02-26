@@ -1,9 +1,7 @@
-"""
-Technique: Outliers (clip / winsor-like handling)
-Use When:
-- Bad prints or corporate action errors can create huge outliers
-- Outliers can dominate z-scores, correlations, and risk estimates
-"""
+# Technique: Outliers (clip / winsor-like handling)
+# Use When:
+# - Bad prints or corporate action errors can create huge outliers
+# - Outliers can dominate z-scores, correlations, and risk estimates
 
 import pandas as pd
 

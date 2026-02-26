@@ -1,9 +1,7 @@
-"""
-Technique: HTTP Header Parsing with email.message
-Use When:
-- Headers are structured but messy (case-insensitive, folding, duplicates)
-- Standard library provides robust parsing
-"""
+# Technique: HTTP Header Parsing with email.message
+# Use When:
+# - Headers are structured but messy (case-insensitive, folding, duplicates)
+# - Standard library provides robust parsing
 
 from email.parser import Parser
 

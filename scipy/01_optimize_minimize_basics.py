@@ -1,9 +1,7 @@
-"""
-Technique: scipy.optimize.minimize (basics)
-Use When:
-- Unconstrained optimization with explicit objective
-- Common in calibration and parameter estimation
-"""
+# Technique: scipy.optimize.minimize (basics)
+# Use When:
+# - Unconstrained optimization with explicit objective
+# - Common in calibration and parameter estimation
 
 import numpy as np
 from scipy import optimize

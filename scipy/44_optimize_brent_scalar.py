@@ -1,8 +1,6 @@
-"""
-Technique: Scalar Minimization (Brent)
-Use When:
-- Fast 1D optimization (e.g., implied vol root/min)
-"""
+# Technique: Scalar Minimization (Brent)
+# Use When:
+# - Fast 1D optimization (e.g., implied vol root/min)
 
 import numpy as np
 from scipy.optimize import minimize_scalar

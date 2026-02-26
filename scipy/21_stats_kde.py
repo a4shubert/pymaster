@@ -1,8 +1,6 @@
-"""
-Technique: Kernel Density Estimation (gaussian_kde)
-Use When:
-- Nonparametric density estimation (risk tails exploration)
-"""
+# Technique: Kernel Density Estimation (gaussian_kde)
+# Use When:
+# - Nonparametric density estimation (risk tails exploration)
 
 import numpy as np
 from scipy.stats import gaussian_kde

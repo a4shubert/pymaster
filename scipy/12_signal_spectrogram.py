@@ -1,8 +1,6 @@
-"""
-Technique: Spectrogram (time-frequency)
-Use When:
-- Inspect frequency content over time
-"""
+# Technique: Spectrogram (time-frequency)
+# Use When:
+# - Inspect frequency content over time
 
 import numpy as np
 from scipy import signal

@@ -1,8 +1,6 @@
-"""
-Technique: Winsorization (mstats.winsorize)
-Use When:
-- Cap extremes to reduce outlier impact
-"""
+# Technique: Winsorization (mstats.winsorize)
+# Use When:
+# - Cap extremes to reduce outlier impact
 
 import numpy as np
 from scipy.stats.mstats import winsorize

@@ -1,8 +1,6 @@
-"""
-Technique: Resampling Signals (resample_poly)
-Use When:
-- Rational resampling with anti-alias filtering
-"""
+# Technique: Resampling Signals (resample_poly)
+# Use When:
+# - Rational resampling with anti-alias filtering
 
 import numpy as np
 from scipy.signal import resample_poly

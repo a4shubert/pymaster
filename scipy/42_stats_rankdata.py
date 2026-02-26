@@ -1,8 +1,6 @@
-"""
-Technique: Rank Data (rankdata)
-Use When:
-- Robust ranking for signals
-"""
+# Technique: Rank Data (rankdata)
+# Use When:
+# - Robust ranking for signals
 
 import numpy as np
 from scipy.stats import rankdata

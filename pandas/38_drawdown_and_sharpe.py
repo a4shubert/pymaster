@@ -1,9 +1,7 @@
-"""
-Technique: Performance Metrics (Sharpe, Max Drawdown)
-Use When:
-- Sharpe and drawdown are baseline reporting metrics
-- Always define your conventions (annualization factor, risk-free rate)
-"""
+# Technique: Performance Metrics (Sharpe, Max Drawdown)
+# Use When:
+# - Sharpe and drawdown are baseline reporting metrics
+# - Always define your conventions (annualization factor, risk-free rate)
 
 import numpy as np
 import pandas as pd

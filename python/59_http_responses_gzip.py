@@ -1,9 +1,7 @@
-"""
-Technique: Handling gzip-compressed HTTP bodies
-Use When:
-- Many web servers compress responses
-- You need to decode correctly based on Content-Encoding
-"""
+# Technique: Handling gzip-compressed HTTP bodies
+# Use When:
+# - Many web servers compress responses
+# - You need to decode correctly based on Content-Encoding
 
 import gzip
 

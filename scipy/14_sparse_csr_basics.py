@@ -1,8 +1,6 @@
-"""
-Technique: Sparse Matrices (CSR)
-Use When:
-- Build and multiply sparse matrices
-"""
+# Technique: Sparse Matrices (CSR)
+# Use When:
+# - Build and multiply sparse matrices
 
 import numpy as np
 from scipy import sparse

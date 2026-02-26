@@ -1,9 +1,7 @@
-"""
-Technique: Time Series Joins for Many Assets (Panel Merge)
-Use When:
-- Combine returns + signals + fundamentals keyed by (date, ticker)
-- MultiIndex joins prevent accidental cartesian products
-"""
+# Technique: Time Series Joins for Many Assets (Panel Merge)
+# Use When:
+# - Combine returns + signals + fundamentals keyed by (date, ticker)
+# - MultiIndex joins prevent accidental cartesian products
 
 import pandas as pd
 

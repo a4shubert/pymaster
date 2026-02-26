@@ -1,9 +1,7 @@
-"""
-Technique: Factor Exposure Regression (Toy, No Statsmodels)
-Use When:
-- Exposure estimation (beta) and factor neutralization show up everywhere
-- Production uses robust stats tooling; here we show a minimal matrix approach
-"""
+# Technique: Factor Exposure Regression (Toy, No Statsmodels)
+# Use When:
+# - Exposure estimation (beta) and factor neutralization show up everywhere
+# - Production uses robust stats tooling; here we show a minimal matrix approach
 
 import numpy as np
 import pandas as pd

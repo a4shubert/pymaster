@@ -1,10 +1,8 @@
-"""
-Technique: Retries with Exponential Backoff (Resilient External Calls)
-Use When:
-- External services fail transiently (timeouts, rate limits, network blips)
-- Controlled retries improve reliability without spamming dependencies
-- Backoff + jitter reduces synchronized retry storms
-"""
+# Technique: Retries with Exponential Backoff (Resilient External Calls)
+# Use When:
+# - External services fail transiently (timeouts, rate limits, network blips)
+# - Controlled retries improve reliability without spamming dependencies
+# - Backoff + jitter reduces synchronized retry storms
 
 import random
 import time

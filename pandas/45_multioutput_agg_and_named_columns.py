@@ -1,9 +1,7 @@
-"""
-Technique: Multi-Output Aggregations with Named Columns
-Use When:
-- Reporting often needs multiple metrics per group (PnL, vol, hit rate)
-- Named aggs keep outputs tidy and avoid MultiIndex columns
-"""
+# Technique: Multi-Output Aggregations with Named Columns
+# Use When:
+# - Reporting often needs multiple metrics per group (PnL, vol, hit rate)
+# - Named aggs keep outputs tidy and avoid MultiIndex columns
 
 import pandas as pd
 

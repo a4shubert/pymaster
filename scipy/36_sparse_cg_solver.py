@@ -1,8 +1,6 @@
-"""
-Technique: Iterative Solve (Conjugate Gradient)
-Use When:
-- Large SPD systems solved iteratively
-"""
+# Technique: Iterative Solve (Conjugate Gradient)
+# Use When:
+# - Large SPD systems solved iteratively
 
 import numpy as np
 from scipy import sparse

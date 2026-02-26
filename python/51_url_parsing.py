@@ -1,9 +1,7 @@
-"""
-Technique: URL Parsing with urllib.parse
-Use When:
-- Correct URL parsing avoids subtle bugs (encoding, query params, fragments)
-- Safer than manual string splitting
-"""
+# Technique: URL Parsing with urllib.parse
+# Use When:
+# - Correct URL parsing avoids subtle bugs (encoding, query params, fragments)
+# - Safer than manual string splitting
 
 from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 

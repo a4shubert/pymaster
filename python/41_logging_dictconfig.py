@@ -1,10 +1,8 @@
-"""
-Technique: Centralized Logging with dictConfig
-Use When:
-- One place to configure log level, format, and handlers
-- Consistent, structured-ish logs across modules
-- Easy to tune behavior per environment (dev/stage/prod)
-"""
+# Technique: Centralized Logging with dictConfig
+# Use When:
+# - One place to configure log level, format, and handlers
+# - Consistent, structured-ish logs across modules
+# - Easy to tune behavior per environment (dev/stage/prod)
 
 import logging
 import logging.config

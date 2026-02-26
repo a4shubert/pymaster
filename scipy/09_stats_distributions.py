@@ -1,9 +1,7 @@
-"""
-Technique: Distributions (scipy.stats)
-Use When:
-- PDF/CDF/PPF, random variates
-- Core for risk metrics and simulations
-"""
+# Technique: Distributions (scipy.stats)
+# Use When:
+# - PDF/CDF/PPF, random variates
+# - Core for risk metrics and simulations
 
 from scipy import stats
 

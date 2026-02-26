@@ -1,10 +1,8 @@
-"""
-Technique: Mixins (Optional Shared Behavior)
-Use When:
-- Reuses small behavior without deep inheritance
-- Keeps feature sets composable
-- Avoids monolithic base classes
-"""
+# Technique: Mixins (Optional Shared Behavior)
+# Use When:
+# - Reuses small behavior without deep inheritance
+# - Keeps feature sets composable
+# - Avoids monolithic base classes
 
 from dataclasses import dataclass
 

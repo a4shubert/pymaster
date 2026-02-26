@@ -1,9 +1,7 @@
-"""
-Technique: Quantile Binning (Deciles/Quintiles)
-Use When:
-- Standard in factor research: bucket assets into deciles by signal
-- Used for long/short portfolio formation and performance attribution
-"""
+# Technique: Quantile Binning (Deciles/Quintiles)
+# Use When:
+# - Standard in factor research: bucket assets into deciles by signal
+# - Used for long/short portfolio formation and performance attribution
 
 import pandas as pd
 

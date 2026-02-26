@@ -1,10 +1,8 @@
-"""
-Technique: Descriptors (Reusable Attribute Validation)
-Use When:
-- Centralizes repeated validation logic
-- Enforces invariants across multiple classes
-- Useful for lightweight domain models
-"""
+# Technique: Descriptors (Reusable Attribute Validation)
+# Use When:
+# - Centralizes repeated validation logic
+# - Enforces invariants across multiple classes
+# - Useful for lightweight domain models
 
 from __future__ import annotations
 
