@@ -1,13 +1,8 @@
-"""Lecture 03: Datetime + Timezones (Market Data Correctness)
-
-Hedge fund relevance:
-- Mixing naive/aware timestamps silently breaks joins and resampling.
-- Normalize to UTC for storage; convert to local exchange tz for session logic.
-
-Key techniques:
-- `pd.to_datetime(..., utc=True)`
-- `dt.tz_convert(...)`
-- `dt.floor('min')` for bucketing
+"""
+Technique: Datetime + Timezones (Market Data Correctness)
+Use When:
+- Mixing naive/aware timestamps silently breaks joins and resampling
+- Normalize to UTC for storage; convert to local exchange tz for session logic
 """
 
 import pandas as pd

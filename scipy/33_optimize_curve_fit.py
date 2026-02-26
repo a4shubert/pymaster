@@ -1,7 +1,7 @@
-"""Lecture 33: curve_fit (quick param fit)
-
-Focus:
-- Fit parametric curves; careful with extrapolation.
+"""
+Technique: curve_fit (quick param fit)
+Use When:
+- Fit parametric curves; careful with extrapolation
 """
 
 import numpy as np

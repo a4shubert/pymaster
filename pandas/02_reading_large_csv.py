@@ -1,16 +1,9 @@
-"""Lecture 02: Reading Large CSVs (dtype, parse_dates, chunks)
-
-Hedge fund relevance:
-- You ingest vendor dumps (ticks, bars, ref data) that can be GBs.
-- Correct `dtype` prevents object columns and speeds parsing.
-- `chunksize` enables streaming and incremental processing.
-
-Key techniques:
-- `pd.read_csv(..., dtype=..., parse_dates=..., usecols=..., chunksize=...)`
-- validate schema early
-
-Note:
-- This lecture uses in-memory CSV via StringIO so it runs anywhere.
+"""
+Technique: Reading Large CSVs (dtype, parse_dates, chunks)
+Use When:
+- You ingest vendor dumps (ticks, bars, ref data) that can be GBs
+- Correct `dtype` prevents object columns and speeds parsing
+- `chunksize` enables streaming and incremental processing
 """
 
 import io

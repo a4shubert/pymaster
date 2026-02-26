@@ -1,15 +1,9 @@
 """
 Technique: ABC vs Protocol (Nominal vs Structural Interfaces)
-
-Why this is professional:
-- You choose interface style based on control and flexibility needs.
-- ABC enforces explicit inheritance (nominal typing).
-- Protocol enables duck-typed compatibility with static checks (structural typing).
-
-Pattern:
-1) Use ABC when you own implementations and want explicit contracts.
-2) Use Protocol when you want loose coupling across independent implementations.
-3) Keep method signatures small and behavior-focused.
+Use When:
+- You choose interface style based on control and flexibility needs
+- ABC enforces explicit inheritance (nominal typing)
+- Protocol enables duck-typed compatibility with static checks (structural typing)
 """
 
 from abc import ABC, abstractmethod

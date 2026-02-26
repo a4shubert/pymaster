@@ -1,9 +1,8 @@
-"""Lecture 23: searchsorted (align events to grid)
-
-Focus:
-- Intermediate/advanced NumPy techniques with a quant/finance bias.
-- Each file is runnable and uses only NumPy + stdlib.
-
+"""
+Technique: searchsorted (align events to grid)
+Use When:
+- Intermediate/advanced NumPy techniques with a quant/finance bias
+- Each file is runnable and uses only NumPy + stdlib
 """
 
 import numpy as np

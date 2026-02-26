@@ -1,12 +1,8 @@
-"""Lecture 35: Sector Neutralization (Demean within Group)
-
-Hedge fund relevance:
-- Removes sector tilts from signals.
-- Often used as a cheap, robust neutralization step.
-
-Key techniques:
-- groupby transform with mean
-- create neutralized signal = signal - group_mean
+"""
+Technique: Sector Neutralization (Demean within Group)
+Use When:
+- Removes sector tilts from signals
+- Often used as a cheap, robust neutralization step
 """
 
 import pandas as pd

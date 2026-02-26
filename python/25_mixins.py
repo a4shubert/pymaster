@@ -1,15 +1,9 @@
 """
 Technique: Mixins (Optional Shared Behavior)
-
-Why this is professional:
-- Reuses small behavior without deep inheritance.
-- Keeps feature sets composable.
-- Avoids monolithic base classes.
-
-Rules of thumb:
-- Mixins should be small and focused.
-- Mixins should not own critical state.
-- Prefer composition if mixin logic grows.
+Use When:
+- Reuses small behavior without deep inheritance
+- Keeps feature sets composable
+- Avoids monolithic base classes
 """
 
 from dataclasses import dataclass

@@ -1,7 +1,7 @@
-"""Lecture 37: Block Diagonal Matrices
-
-Focus:
-- Build block structures for models.
+"""
+Technique: Block Diagonal Matrices
+Use When:
+- Build block structures for models
 """
 
 import numpy as np

@@ -1,7 +1,7 @@
-"""Lecture 29: Peak Finding (find_peaks)
-
-Focus:
-- Detect peaks in a signal.
+"""
+Technique: Peak Finding (find_peaks)
+Use When:
+- Detect peaks in a signal
 """
 
 import numpy as np

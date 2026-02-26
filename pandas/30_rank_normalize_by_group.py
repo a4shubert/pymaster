@@ -1,12 +1,8 @@
-"""Lecture 30: Normalize Within Groups (Sector-Neutral Signals)
-
-Hedge fund relevance:
-- Sector-neutral ranking reduces unintended factor exposure.
-- You frequently normalize within sector, industry, or region.
-
-Key techniques:
-- `groupby([...]).transform(...)` to keep shape
-- per-group z-score or rank
+"""
+Technique: Normalize Within Groups (Sector-Neutral Signals)
+Use When:
+- Sector-neutral ranking reduces unintended factor exposure
+- You frequently normalize within sector, industry, or region
 """
 
 import pandas as pd

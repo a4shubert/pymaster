@@ -1,15 +1,9 @@
 """
 Technique: asyncio Basics (Concurrent I/O without Threads)
-
-Why this is professional:
-- Efficient for many I/O-bound tasks (HTTP calls, DB/network waits).
-- Clear control over concurrency with `await` and task groups.
-- Better throughput when tasks spend time waiting.
-
-Pattern:
-1) Mark I/O-bound work as `async def`.
-2) Use `await` for non-blocking waits.
-3) Run independent coroutines concurrently with `asyncio.gather`.
+Use When:
+- Efficient for many I/O-bound tasks (HTTP calls, DB/network waits)
+- Clear control over concurrency with `await` and task groups
+- Better throughput when tasks spend time waiting
 """
 
 import asyncio

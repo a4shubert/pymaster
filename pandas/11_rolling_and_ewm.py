@@ -1,13 +1,8 @@
-"""Lecture 11: Rolling Windows and EWM (Volatility, Trends, Risk)
-
-Hedge fund relevance:
-- Rolling stats drive signals (moving averages) and risk (rolling vol).
-- EWM (exponentially weighted) reacts faster, common in risk models.
-
-Key techniques:
-- `rolling(window).mean()/std()`
-- `ewm(span, adjust=False).mean()/std()`
-- `min_periods` to control NaNs early in a series
+"""
+Technique: Rolling Windows and EWM (Volatility, Trends, Risk)
+Use When:
+- Rolling stats drive signals (moving averages) and risk (rolling vol)
+- EWM (exponentially weighted) reacts faster, common in risk models
 """
 
 import pandas as pd

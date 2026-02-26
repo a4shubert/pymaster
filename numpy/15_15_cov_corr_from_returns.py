@@ -1,3 +1,10 @@
+"""
+Technique: Cov corr from returns
+Use When:
+- You are working in numerical computing with arrays
+- You need cov corr from returns as a reliable building block
+"""
+
 """Lecture 15: Covariance/correlation from returns matrix
 
 Focus:

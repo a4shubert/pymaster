@@ -1,7 +1,7 @@
-"""Lecture 44: Scalar Minimization (Brent)
-
-Focus:
-- Fast 1D optimization (e.g., implied vol root/min).
+"""
+Technique: Scalar Minimization (Brent)
+Use When:
+- Fast 1D optimization (e.g., implied vol root/min)
 """
 
 import numpy as np

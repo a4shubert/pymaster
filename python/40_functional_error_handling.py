@@ -1,15 +1,9 @@
 """
 Technique: Functional Error Handling (Result Pattern)
-
-Why this is professional:
-- Makes success/failure explicit in return types.
-- Avoids using exceptions for expected control flow.
-- Works well in pipelines and batch processing.
-
-Pattern:
-1) Return (ok, value/error).
-2) Callers handle both branches explicitly.
-3) Keep errors informative.
+Use When:
+- Makes success/failure explicit in return types
+- Avoids using exceptions for expected control flow
+- Works well in pipelines and batch processing
 """
 
 from dataclasses import dataclass

@@ -1,13 +1,8 @@
-"""Lecture 38: Performance Metrics (Sharpe, Max Drawdown)
-
-Hedge fund relevance:
-- Sharpe and drawdown are baseline reporting metrics.
-- Always define your conventions (annualization factor, risk-free rate).
-
-Key techniques:
-- cumulative equity curve
-- drawdown from running max
-- annualized Sharpe (toy)
+"""
+Technique: Performance Metrics (Sharpe, Max Drawdown)
+Use When:
+- Sharpe and drawdown are baseline reporting metrics
+- Always define your conventions (annualization factor, risk-free rate)
 """
 
 import numpy as np

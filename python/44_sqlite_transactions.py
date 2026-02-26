@@ -1,15 +1,9 @@
 """
 Technique: Transaction Boundaries (sqlite3)
-
-Why this is enterprise:
-- Guarantees data consistency (all-or-nothing changes).
-- Makes failure handling predictable.
-- Centralizes commit/rollback logic.
-
-Pattern:
-1) Use a context manager for transaction scope.
-2) Commit on success.
-3) Roll back on exceptions.
+Use When:
+- Guarantees data consistency (all-or-nothing changes)
+- Makes failure handling predictable
+- Centralizes commit/rollback logic
 """
 
 import sqlite3

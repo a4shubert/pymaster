@@ -1,13 +1,8 @@
-"""Lecture 28: Performance Hygiene (copies, chained assignment)
-
-Hedge fund relevance:
-- Research code becomes slow or wrong due to chained assignment.
-- In production, you want explicit `.copy()` boundaries.
-
-Key techniques:
-- avoid chained assignment
-- use `.loc[...] = ...`
-- copy when you intend to create a derived dataset
+"""
+Technique: Performance Hygiene (copies, chained assignment)
+Use When:
+- Research code becomes slow or wrong due to chained assignment
+- In production, you want explicit `.copy()` boundaries
 """
 
 import pandas as pd

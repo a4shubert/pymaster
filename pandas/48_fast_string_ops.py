@@ -1,12 +1,8 @@
-"""Lecture 48: Fast String Ops (Cleaning Symbol IDs)
-
-Hedge fund relevance:
-- Identifiers arrive messy (spaces, case, vendor suffixes).
-- Vectorized string methods keep it fast and consistent.
-
-Key techniques:
-- `Series.str.strip/lower/replace`
-- avoid Python loops
+"""
+Technique: Fast String Ops (Cleaning Symbol IDs)
+Use When:
+- Identifiers arrive messy (spaces, case, vendor suffixes)
+- Vectorized string methods keep it fast and consistent
 """
 
 import pandas as pd

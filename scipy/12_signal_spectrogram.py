@@ -1,7 +1,7 @@
-"""Lecture 12: Spectrogram (time-frequency)
-
-Focus:
-- Inspect frequency content over time.
+"""
+Technique: Spectrogram (time-frequency)
+Use When:
+- Inspect frequency content over time
 """
 
 import numpy as np

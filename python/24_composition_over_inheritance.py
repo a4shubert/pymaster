@@ -1,15 +1,9 @@
 """
 Technique: Composition Over Inheritance
-
-Why this is professional:
-- Inheritance is strong coupling; composition stays flexible.
-- Behaviors can be swapped at runtime (policies/strategies).
-- Avoids fragile base-class problems.
-
-Pattern:
-1) Define small behavior interfaces.
-2) Inject behaviors into services.
-3) Prefer delegation over overriding.
+Use When:
+- Inheritance is strong coupling; composition stays flexible
+- Behaviors can be swapped at runtime (policies/strategies)
+- Avoids fragile base-class problems
 """
 
 from dataclasses import dataclass

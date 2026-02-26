@@ -1,16 +1,9 @@
 """
 Technique: Typed Validation Boundary (Parse Early, Trust Internal Data)
-
-Why this is professional:
-- External input (APIs, files, user JSON) is untrusted.
-- Validate once at the boundary.
-- Convert to a typed domain model, then keep internal code strict and simple.
-
-Pattern:
-1) Raw dict input
-2) Validation/parsing function
-3) Dataclass domain object
-4) Business logic only accepts typed objects
+Use When:
+- External input (APIs, files, user JSON) is untrusted
+- Validate once at the boundary
+- Convert to a typed domain model, then keep internal code strict and simple
 """
 
 from dataclasses import dataclass

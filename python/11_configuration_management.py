@@ -1,15 +1,9 @@
 """
 Technique: Configuration Management (Single Source of Runtime Settings)
-
-Why this is professional:
-- Keeps environment-specific values out of business logic.
-- Makes local/dev/prod behavior explicit and auditable.
-- Fails fast when required config is missing.
-
-Pattern:
-1) Read config from environment.
-2) Parse/validate once at startup.
-3) Pass typed config object to application services.
+Use When:
+- Keeps environment-specific values out of business logic
+- Makes local/dev/prod behavior explicit and auditable
+- Fails fast when required config is missing
 """
 
 import os

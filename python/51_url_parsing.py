@@ -1,14 +1,8 @@
 """
 Technique: URL Parsing with urllib.parse
-
-Why this matters:
-- Correct URL parsing avoids subtle bugs (encoding, query params, fragments).
-- Safer than manual string splitting.
-
-Pattern:
-1) Use urlsplit/urlunsplit.
-2) Use parse_qs/urlencode for query strings.
-3) Normalize/validate before use.
+Use When:
+- Correct URL parsing avoids subtle bugs (encoding, query params, fragments)
+- Safer than manual string splitting
 """
 
 from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit

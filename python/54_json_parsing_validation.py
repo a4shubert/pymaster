@@ -1,14 +1,8 @@
 """
 Technique: JSON Parsing + Lightweight Validation
-
-Why this matters:
-- Most web APIs are JSON.
-- Parsing is easy; validating shape/types is where production bugs happen.
-
-Pattern:
-1) json.loads
-2) Validate required keys and types.
-3) Convert to a typed model.
+Use When:
+- Most web APIs are JSON
+- Parsing is easy; validating shape/types is where production bugs happen
 """
 
 import json

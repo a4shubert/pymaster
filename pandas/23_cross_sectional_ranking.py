@@ -1,12 +1,8 @@
-"""Lecture 23: Cross-Sectional Ranking (Signals)
-
-Hedge fund relevance:
-- Many strategies rank assets daily (momentum, value, quality).
-- Ranks are robust to outliers compared to raw values.
-
-Key techniques:
-- `groupby(date).rank(pct=True)` for percentile ranks
-- tie handling via `method=`
+"""
+Technique: Cross-Sectional Ranking (Signals)
+Use When:
+- Many strategies rank assets daily (momentum, value, quality)
+- Ranks are robust to outliers compared to raw values
 """
 
 import pandas as pd

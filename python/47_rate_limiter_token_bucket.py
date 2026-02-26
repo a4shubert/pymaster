@@ -1,15 +1,9 @@
 """
 Technique: Token Bucket Rate Limiter
-
-Why this is enterprise:
-- Protects services from overload.
-- Enforces fair usage across callers.
-- Smooths burst traffic.
-
-Pattern:
-1) Track tokens and last refill time.
-2) Refill based on elapsed time.
-3) Consume tokens per request.
+Use When:
+- Protects services from overload
+- Enforces fair usage across callers
+- Smooths burst traffic
 """
 
 import time

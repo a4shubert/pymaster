@@ -1,14 +1,9 @@
 """
 Technique: functools.partial (Practical Currying)
-
-Why this is professional:
-- Pre-binds arguments to create specialized functions.
-- Reduces repetitive parameter passing.
-- Creates clearer APIs for pipelines.
-
-Pattern:
-1) Define a general function.
-2) Use partial to create specialized versions.
+Use When:
+- Pre-binds arguments to create specialized functions
+- Reduces repetitive parameter passing
+- Creates clearer APIs for pipelines
 """
 
 from functools import partial

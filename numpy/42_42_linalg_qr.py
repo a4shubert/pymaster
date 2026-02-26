@@ -1,3 +1,10 @@
+"""
+Technique: Linalg qr
+Use When:
+- You are working in numerical computing with arrays
+- You need linalg qr as a reliable building block
+"""
+
 """Lecture 42: QR decomposition (numerical methods)
 
 Focus:

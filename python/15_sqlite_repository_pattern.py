@@ -1,15 +1,9 @@
 """
 Technique: Repository Pattern with sqlite3
-
-Why this is professional:
-- Keeps SQL access isolated from business logic.
-- Enables easier testing and future DB migration.
-- Defines clear persistence boundaries.
-
-Pattern:
-1) Domain model dataclass.
-2) Repository class for CRUD queries.
-3) Service layer depends on repository behavior.
+Use When:
+- Keeps SQL access isolated from business logic
+- Enables easier testing and future DB migration
+- Defines clear persistence boundaries
 """
 
 import sqlite3

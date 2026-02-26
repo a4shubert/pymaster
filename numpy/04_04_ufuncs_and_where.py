@@ -1,9 +1,8 @@
-"""Lecture 04: Ufuncs + where (branchless selection)
-
-Focus:
-- Intermediate/advanced NumPy techniques with a quant/finance bias.
-- Each file is runnable and uses only NumPy + stdlib.
-
+"""
+Technique: Ufuncs + where (branchless selection)
+Use When:
+- Intermediate/advanced NumPy techniques with a quant/finance bias
+- Each file is runnable and uses only NumPy + stdlib
 """
 
 import numpy as np

@@ -1,15 +1,9 @@
 """
 Technique: Professional Project Structure
-
-Why this is professional:
-- Separates concerns (domain, infra, interfaces).
-- Improves onboarding and discoverability.
-- Scales better as codebase size grows.
-
-Pattern:
-1) Keep application entrypoints thin.
-2) Keep business logic independent from frameworks.
-3) Define clear package boundaries.
+Use When:
+- Separates concerns (domain, infra, interfaces)
+- Improves onboarding and discoverability
+- Scales better as codebase size grows
 """
 
 PROJECT_LAYOUT = {

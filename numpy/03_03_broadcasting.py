@@ -1,9 +1,8 @@
-"""Lecture 03: Broadcasting (vectorize across dimensions)
-
-Focus:
-- Intermediate/advanced NumPy techniques with a quant/finance bias.
-- Each file is runnable and uses only NumPy + stdlib.
-
+"""
+Technique: Broadcasting (vectorize across dimensions)
+Use When:
+- Intermediate/advanced NumPy techniques with a quant/finance bias
+- Each file is runnable and uses only NumPy + stdlib
 """
 
 import numpy as np

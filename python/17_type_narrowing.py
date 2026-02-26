@@ -1,15 +1,9 @@
 """
 Technique: Type Narrowing and Type Guards
-
-Why this is professional:
-- Reduces runtime type errors.
-- Lets static checkers prove safety after validation.
-- Makes heterogeneous input handling explicit.
-
-Pattern:
-1) Validate unknown input early.
-2) Use helper guards to narrow types.
-3) Keep narrowed values in local variables.
+Use When:
+- Reduces runtime type errors
+- Lets static checkers prove safety after validation
+- Makes heterogeneous input handling explicit
 """
 
 from typing import Any, TypeGuard

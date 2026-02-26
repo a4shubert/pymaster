@@ -1,12 +1,8 @@
-"""Lecture 44: Weighted Averages + Exposure Attribution
-
-Hedge fund relevance:
-- Portfolio-level metrics are weighted by positions.
-- Exposure decomposition by sector/book is core reporting.
-
-Key techniques:
-- weighted average
-- groupby weighted sums
+"""
+Technique: Weighted Averages + Exposure Attribution
+Use When:
+- Portfolio-level metrics are weighted by positions
+- Exposure decomposition by sector/book is core reporting
 """
 
 import pandas as pd

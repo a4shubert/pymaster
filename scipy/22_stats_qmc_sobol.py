@@ -1,7 +1,7 @@
-"""Lecture 22: Quasi-Monte Carlo (Sobol)
-
-Focus:
-- Low-discrepancy sequences for faster convergence (when applicable).
+"""
+Technique: Quasi-Monte Carlo (Sobol)
+Use When:
+- Low-discrepancy sequences for faster convergence (when applicable)
 """
 
 from scipy.stats import qmc

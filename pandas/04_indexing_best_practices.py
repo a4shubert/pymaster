@@ -1,13 +1,8 @@
-"""Lecture 04: Indexing Best Practices (DatetimeIndex, MultiIndex)
-
-Hedge fund relevance:
-- Time series operations (resample/rolling) are easiest with DatetimeIndex.
-- Panel data (date x asset) is natural with MultiIndex.
-
-Key techniques:
-- `set_index`, `sort_index`
-- `MultiIndex.from_product`
-- slicing with `loc`
+"""
+Technique: Indexing Best Practices (DatetimeIndex, MultiIndex)
+Use When:
+- Time series operations (resample/rolling) are easiest with DatetimeIndex
+- Panel data (date x asset) is natural with MultiIndex
 """
 
 import pandas as pd

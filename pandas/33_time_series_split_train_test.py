@@ -1,12 +1,8 @@
-"""Lecture 33: Time Series Train/Test Split (No Leakage)
-
-Hedge fund relevance:
-- Random splits leak future information.
-- Always split by time (and often embargo around events).
-
-Key techniques:
-- split by index date
-- keep features lagged
+"""
+Technique: Time Series Train/Test Split (No Leakage)
+Use When:
+- Random splits leak future information
+- Always split by time (and often embargo around events)
 """
 
 import pandas as pd

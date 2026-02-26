@@ -1,9 +1,8 @@
-"""Lecture 11: Random numbers: Generator API (reproducible)
-
-Focus:
-- Intermediate/advanced NumPy techniques with a quant/finance bias.
-- Each file is runnable and uses only NumPy + stdlib.
-
+"""
+Technique: Random numbers: Generator API (reproducible)
+Use When:
+- Intermediate/advanced NumPy techniques with a quant/finance bias
+- Each file is runnable and uses only NumPy + stdlib
 """
 
 import numpy as np

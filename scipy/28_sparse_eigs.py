@@ -1,7 +1,7 @@
-"""Lecture 28: Sparse Eigenvalues (eigs)
-
-Focus:
-- Large systems: compute a few eigenvalues.
+"""
+Technique: Sparse Eigenvalues (eigs)
+Use When:
+- Large systems: compute a few eigenvalues
 """
 
 import numpy as np

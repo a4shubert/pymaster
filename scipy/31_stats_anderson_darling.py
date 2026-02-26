@@ -1,7 +1,7 @@
-"""Lecture 31: Normality Test (Anderson-Darling)
-
-Focus:
-- Quick check for distributional assumptions.
+"""
+Technique: Normality Test (Anderson-Darling)
+Use When:
+- Quick check for distributional assumptions
 """
 
 import numpy as np

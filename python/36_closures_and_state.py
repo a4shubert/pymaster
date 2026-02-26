@@ -1,14 +1,9 @@
 """
 Technique: Closures (State without Classes)
-
-Why this is professional:
-- Encapsulates state in a small, testable unit.
-- Useful for lightweight counters, memoization, configuration.
-- Avoids over-engineering with classes.
-
-Pattern:
-1) Keep state in an enclosing scope.
-2) Expose minimal functions that operate on that state.
+Use When:
+- Encapsulates state in a small, testable unit
+- Useful for lightweight counters, memoization, configuration
+- Avoids over-engineering with classes
 """
 
 from collections.abc import Callable

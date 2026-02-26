@@ -1,15 +1,9 @@
 """
 Technique: ABC + Template Method
-
-Why this is professional:
-- One stable workflow is implemented once.
-- Subclasses customize only specific steps.
-- Keeps rules consistent and reduces duplication.
-
-Pattern:
-1) Base class implements algorithm.
-2) Subclasses implement variable steps.
-3) Base class enforces invariants.
+Use When:
+- One stable workflow is implemented once
+- Subclasses customize only specific steps
+- Keeps rules consistent and reduces duplication
 """
 
 from abc import ABC, abstractmethod

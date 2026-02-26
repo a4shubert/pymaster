@@ -1,7 +1,7 @@
-"""Lecture 30: Pairwise Distances (cdist)
-
-Focus:
-- Distance matrices for clustering/NN.
+"""
+Technique: Pairwise Distances (cdist)
+Use When:
+- Distance matrices for clustering/NN
 """
 
 import numpy as np

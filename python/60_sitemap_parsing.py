@@ -1,14 +1,8 @@
 """
 Technique: Parsing XML Sitemaps (sitemap.xml)
-
-Why this matters:
-- Sitemaps are a common, crawl-friendly way to discover URLs.
-- Namespaces are the main gotcha when parsing.
-
-Pattern:
-1) Parse XML.
-2) Handle namespaces.
-3) Extract <loc> values.
+Use When:
+- Sitemaps are a common, crawl-friendly way to discover URLs
+- Namespaces are the main gotcha when parsing
 """
 
 import xml.etree.ElementTree as ET

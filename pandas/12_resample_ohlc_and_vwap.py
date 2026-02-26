@@ -1,16 +1,8 @@
-"""Lecture 12: Resampling to Bars (OHLC) and VWAP
-
-Hedge fund relevance:
-- You often convert irregular trades to fixed interval bars.
-- OHLC bars and VWAP are standard downstream inputs.
-
-Key techniques:
-- `resample('1min').ohlc()`
-- `resample(...).sum()` for volume
-- VWAP = sum(price * qty) / sum(qty)
-
-Note:
-- Uses synthetic trade prints for a single symbol.
+"""
+Technique: Resampling to Bars (OHLC) and VWAP
+Use When:
+- You often convert irregular trades to fixed interval bars
+- OHLC bars and VWAP are standard downstream inputs
 """
 
 import pandas as pd

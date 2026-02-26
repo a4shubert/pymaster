@@ -1,12 +1,8 @@
-"""Lecture 47: Merge Validation + Audit (Avoid Row Explosions)
-
-Hedge fund relevance:
-- Joining positions to ref data can silently explode if keys aren't unique.
-- Use `validate` and `_merge` indicators to catch errors early.
-
-Key techniques:
-- `merge(..., validate='many_to_one', indicator=True)`
-- analyze `_merge` counts
+"""
+Technique: Merge Validation + Audit (Avoid Row Explosions)
+Use When:
+- Joining positions to ref data can silently explode if keys aren't unique
+- Use `validate` and `_merge` indicators to catch errors early
 """
 
 import pandas as pd

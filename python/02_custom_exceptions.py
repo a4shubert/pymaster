@@ -1,15 +1,9 @@
 """
 Technique: Custom Exceptions for Clear Error Contracts
-
-Why this is professional:
-- Callers can handle failures by category instead of string matching.
-- Domain errors are separated from low-level runtime errors.
-- Error handling becomes predictable in services and APIs.
-
-Pattern:
-1) Define a small exception hierarchy for your domain.
-2) Raise specific exceptions from validation/business rules.
-3) Catch domain exceptions at boundaries (CLI/API) and map to user-safe messages.
+Use When:
+- Callers can handle failures by category instead of string matching
+- Domain errors are separated from low-level runtime errors
+- Error handling becomes predictable in services and APIs
 """
 
 from dataclasses import dataclass

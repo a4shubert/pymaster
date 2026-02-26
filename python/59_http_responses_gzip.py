@@ -1,14 +1,8 @@
 """
 Technique: Handling gzip-compressed HTTP bodies
-
-Why this matters:
-- Many web servers compress responses.
-- You need to decode correctly based on Content-Encoding.
-
-Pattern:
-1) Detect encoding.
-2) Decompress bytes.
-3) Decode text with the right charset.
+Use When:
+- Many web servers compress responses
+- You need to decode correctly based on Content-Encoding
 """
 
 import gzip

@@ -1,15 +1,9 @@
 """
 Technique: Structured Logging (Context-Rich, Queryable Logs)
-
-Why this is professional:
-- Logs are machine-parseable and easier to search in production.
-- Every log line carries context (request_id, user_id, item_count, etc.).
-- Failures become diagnosable without reproducing locally.
-
-Pattern:
-1) Configure a logger once.
-2) Emit key-value style context with each event.
-3) Log lifecycle events: start, success, failure.
+Use When:
+- Logs are machine-parseable and easier to search in production
+- Every log line carries context (request_id, user_id, item_count, etc.)
+- Failures become diagnosable without reproducing locally
 """
 
 import logging

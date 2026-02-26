@@ -1,9 +1,8 @@
-"""Lecture 08: Sorting: sort/argsort/argpartition (top-k)
-
-Focus:
-- Intermediate/advanced NumPy techniques with a quant/finance bias.
-- Each file is runnable and uses only NumPy + stdlib.
-
+"""
+Technique: Sorting: sort/argsort/argpartition (top-k)
+Use When:
+- Intermediate/advanced NumPy techniques with a quant/finance bias
+- Each file is runnable and uses only NumPy + stdlib
 """
 
 import numpy as np

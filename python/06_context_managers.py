@@ -1,15 +1,9 @@
 """
 Technique: Context Managers (Reliable Resource Cleanup)
-
-Why this is professional:
-- Resources (files, DB sessions, locks, timers) are always cleaned up.
-- Cleanup runs even when exceptions happen.
-- Code is safer and easier to reason about.
-
-Pattern:
-1) Use built-in context managers (`with open(...)`).
-2) Create custom context managers for repeated setup/teardown logic.
-3) Keep side effects contained to the smallest scope.
+Use When:
+- Resources (files, DB sessions, locks, timers) are always cleaned up
+- Cleanup runs even when exceptions happen
+- Code is safer and easier to reason about
 """
 
 from contextlib import contextmanager

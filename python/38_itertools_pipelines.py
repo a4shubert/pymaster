@@ -1,15 +1,9 @@
 """
 Technique: itertools Pipelines (Lazy, Composable Data Processing)
-
-Why this is professional:
-- Efficient for large sequences (lazy evaluation).
-- Powerful building blocks for data pipelines.
-- Keeps memory usage low.
-
-Pattern:
-1) Use generator/iterators.
-2) Combine with itertools tools.
-3) Materialize at the boundary.
+Use When:
+- Efficient for large sequences (lazy evaluation)
+- Powerful building blocks for data pipelines
+- Keeps memory usage low
 """
 
 import itertools

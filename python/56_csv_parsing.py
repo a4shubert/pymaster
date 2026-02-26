@@ -1,14 +1,8 @@
 """
 Technique: CSV Parsing with csv.DictReader
-
-Why this matters:
-- Web exports and integrations often deliver CSV.
-- DictReader handles headers and quoting correctly.
-
-Pattern:
-1) Use DictReader.
-2) Validate required columns.
-3) Convert/clean fields.
+Use When:
+- Web exports and integrations often deliver CSV
+- DictReader handles headers and quoting correctly
 """
 
 import csv

@@ -1,7 +1,7 @@
-"""Lecture 35: Resampling Signals (resample_poly)
-
-Focus:
-- Rational resampling with anti-alias filtering.
+"""
+Technique: Resampling Signals (resample_poly)
+Use When:
+- Rational resampling with anti-alias filtering
 """
 
 import numpy as np

@@ -1,15 +1,8 @@
-"""Lecture 17: query/eval for Fast, Readable Filtering
-
-Hedge fund relevance:
-- Analysts write lots of filters (liquidity, borrow cost, universe rules).
-- `query` reads closer to a DSL and can be faster than chained masks.
-
-Key techniques:
-- `df.query('price > 100 and qty >= 50')`
-- `df.eval('notional = price * qty')`
-
-Note:
-- Avoid using untrusted strings.
+"""
+Technique: query/eval for Fast, Readable Filtering
+Use When:
+- Analysts write lots of filters (liquidity, borrow cost, universe rules)
+- `query` reads closer to a DSL and can be faster than chained masks
 """
 
 import pandas as pd

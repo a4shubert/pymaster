@@ -1,13 +1,8 @@
-"""Lecture 40: Stability + Reproducibility (Determinism)
-
-Hedge fund relevance:
-- Research must be reproducible to be trusted.
-- Deterministic outputs reduce debugging time and deployment risk.
-
-Key techniques:
-- stable sorting before group operations
-- explicit random seeds
-- avoid depending on implicit index order
+"""
+Technique: Stability + Reproducibility (Determinism)
+Use When:
+- Research must be reproducible to be trusted
+- Deterministic outputs reduce debugging time and deployment risk
 """
 
 import numpy as np

@@ -1,13 +1,8 @@
-"""Lecture 15: Missing Data (dropna, fillna, ffill) for Time Series
-
-Hedge fund relevance:
-- Corporate actions, trading halts, and vendor gaps create missing values.
-- You need explicit rules per dataset (prices vs fundamentals vs signals).
-
-Key techniques:
-- `isna`, `dropna`
-- `ffill` for last-known price (with limits)
-- careful with `fillna(0)` (can be wrong for prices/returns)
+"""
+Technique: Missing Data (dropna, fillna, ffill) for Time Series
+Use When:
+- Corporate actions, trading halts, and vendor gaps create missing values
+- You need explicit rules per dataset (prices vs fundamentals vs signals)
 """
 
 import pandas as pd

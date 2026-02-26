@@ -1,12 +1,8 @@
-"""Lecture 32: NumPy Interop (Fast Math, Stable Outputs)
-
-Hedge fund relevance:
-- Many quant transforms are expressed naturally in NumPy.
-- Use NumPy for heavy numeric kernels, pandas for alignment/indexing.
-
-Key techniques:
-- `to_numpy()` for numeric arrays
-- write back to aligned Series
+"""
+Technique: NumPy Interop (Fast Math, Stable Outputs)
+Use When:
+- Many quant transforms are expressed naturally in NumPy
+- Use NumPy for heavy numeric kernels, pandas for alignment/indexing
 """
 
 import numpy as np

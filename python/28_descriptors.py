@@ -1,15 +1,9 @@
 """
 Technique: Descriptors (Reusable Attribute Validation)
-
-Why this is professional:
-- Centralizes repeated validation logic.
-- Enforces invariants across multiple classes.
-- Useful for lightweight domain models.
-
-Pattern:
-1) Implement __get__/__set__.
-2) Store values on instance under a private name.
-3) Raise clear errors on invalid assignments.
+Use When:
+- Centralizes repeated validation logic
+- Enforces invariants across multiple classes
+- Useful for lightweight domain models
 """
 
 from __future__ import annotations

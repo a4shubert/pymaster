@@ -1,15 +1,9 @@
 """
 Technique: Dunder Methods (__repr__, __str__, ordering)
-
-Why this is professional:
-- Good __repr__ helps debugging and logging.
-- Rich comparisons enable sorting and consistent behavior.
-- Value objects behave like values.
-
-Pattern:
-1) Use dataclasses for value types.
-2) Provide ordering when it is meaningful.
-3) Keep string forms unambiguous.
+Use When:
+- Good __repr__ helps debugging and logging
+- Rich comparisons enable sorting and consistent behavior
+- Value objects behave like values
 """
 
 from dataclasses import dataclass

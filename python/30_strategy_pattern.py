@@ -1,15 +1,9 @@
 """
 Technique: Strategy Pattern (Swap Algorithms Cleanly)
-
-Why this is professional:
-- Avoids large if/else trees for behavior selection.
-- Makes algorithms testable in isolation.
-- Enables runtime selection (config, feature flags).
-
-Pattern:
-1) Define a strategy interface.
-2) Implement multiple strategies.
-3) Inject strategy into the service.
+Use When:
+- Avoids large if/else trees for behavior selection
+- Makes algorithms testable in isolation
+- Enables runtime selection (config, feature flags)
 """
 
 from dataclasses import dataclass

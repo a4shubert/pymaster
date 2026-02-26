@@ -1,14 +1,8 @@
 """
 Technique: HTML Entity Handling with html.unescape
-
-Why this matters:
-- Web pages often contain entities (&amp;, &lt;, &quot;).
-- You typically want to decode entities before processing text.
-
-Pattern:
-1) Extract text.
-2) Apply html.unescape.
-3) Normalize whitespace if needed.
+Use When:
+- Web pages often contain entities (&amp;, &lt;, &quot;)
+- You typically want to decode entities before processing text
 """
 
 import html

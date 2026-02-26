@@ -1,12 +1,8 @@
-"""Lecture 36: Quantile Binning (Deciles/Quintiles)
-
-Hedge fund relevance:
-- Standard in factor research: bucket assets into deciles by signal.
-- Used for long/short portfolio formation and performance attribution.
-
-Key techniques:
-- `pd.qcut` for quantile bins
-- handle duplicates with `duplicates='drop'`
+"""
+Technique: Quantile Binning (Deciles/Quintiles)
+Use When:
+- Standard in factor research: bucket assets into deciles by signal
+- Used for long/short portfolio formation and performance attribution
 """
 
 import pandas as pd

@@ -1,7 +1,7 @@
-"""Lecture 27: Matrix Exponential (expm)
-
-Focus:
-- Used in continuous-time models and Markov chains.
+"""
+Technique: Matrix Exponential (expm)
+Use When:
+- Used in continuous-time models and Markov chains
 """
 
 import numpy as np

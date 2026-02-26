@@ -1,7 +1,7 @@
-"""Lecture 47: Rotations (spatial.transform.Rotation)
-
-Focus:
-- Demonstrates clean rotation APIs.
+"""
+Technique: Rotations (spatial.transform.Rotation)
+Use When:
+- Demonstrates clean rotation APIs
 """
 
 import numpy as np

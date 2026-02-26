@@ -1,15 +1,9 @@
 """
 Technique: Request-Scoped Context with contextvars
-
-Why this is enterprise:
-- Attaches correlation IDs to logs without passing params everywhere.
-- Works correctly across async tasks.
-- Supports tracing and debugging in distributed systems.
-
-Pattern:
-1) Store request_id in a ContextVar.
-2) Provide a small helper to set/reset.
-3) Read it in logging/metrics.
+Use When:
+- Attaches correlation IDs to logs without passing params everywhere
+- Works correctly across async tasks
+- Supports tracing and debugging in distributed systems
 """
 
 import logging

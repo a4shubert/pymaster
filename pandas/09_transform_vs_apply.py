@@ -1,12 +1,8 @@
-"""Lecture 09: groupby transform vs apply (Performance + Correctness)
-
-Hedge fund relevance:
-- Cross-sectional normalization (z-scores) should keep original shape.
-- `transform` returns same length as input; `apply` can change shape.
-
-Key techniques:
-- `groupby(...).transform(...)`
-- prefer vectorized operations
+"""
+Technique: groupby transform vs apply (Performance + Correctness)
+Use When:
+- Cross-sectional normalization (z-scores) should keep original shape
+- `transform` returns same length as input; `apply` can change shape
 """
 
 import pandas as pd

@@ -1,14 +1,8 @@
 """
 Technique: HTTP Header Parsing with email.message
-
-Why this matters:
-- Headers are structured but messy (case-insensitive, folding, duplicates).
-- Standard library provides robust parsing.
-
-Pattern:
-1) Parse raw headers.
-2) Access values case-insensitively.
-3) Handle missing/duplicate headers.
+Use When:
+- Headers are structured but messy (case-insensitive, folding, duplicates)
+- Standard library provides robust parsing
 """
 
 from email.parser import Parser

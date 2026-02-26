@@ -1,15 +1,8 @@
-"""Lecture 37: Turnover and Simple Transaction Cost Model (Toy)
-
-Hedge fund relevance:
-- Gross returns without costs are misleading.
-- Turnover is a first-order proxy for costs and capacity.
-
-Key techniques:
-- turnover = sum(|w_t - w_{t-1}|)
-- cost model: cost = k * turnover
-
-Warning:
-- Toy cost model, for illustration only.
+"""
+Technique: Turnover and Simple Transaction Cost Model (Toy)
+Use When:
+- Gross returns without costs are misleading
+- Turnover is a first-order proxy for costs and capacity
 """
 
 import pandas as pd

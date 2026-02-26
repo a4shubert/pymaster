@@ -1,15 +1,9 @@
 """
 Technique: Simple Dependency Injection Container
-
-Why this is enterprise:
-- Centralizes wiring of services.
-- Makes components testable (swap implementations).
-- Helps scale applications as dependencies grow.
-
-Pattern:
-1) Register providers (factories).
-2) Resolve instances on demand.
-3) Keep container small; avoid magic.
+Use When:
+- Centralizes wiring of services
+- Makes components testable (swap implementations)
+- Helps scale applications as dependencies grow
 """
 
 from collections.abc import Callable

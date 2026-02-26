@@ -1,15 +1,9 @@
 """
 Technique: Caching with functools.lru_cache
-
-Why this is professional:
-- Avoids repeating expensive pure computations.
-- Improves latency with minimal code.
-- Makes performance tuning explicit and bounded.
-
-Pattern:
-1) Cache pure, deterministic function results.
-2) Set a reasonable cache size.
-3) Expose cache metrics for observability.
+Use When:
+- Avoids repeating expensive pure computations
+- Improves latency with minimal code
+- Makes performance tuning explicit and bounded
 """
 
 import time

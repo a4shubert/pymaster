@@ -1,15 +1,9 @@
 """
 Technique: CLI Design with argparse
-
-Why this is professional:
-- Provides discoverable commands and help text.
-- Validates user input at the command boundary.
-- Makes scripts reusable in automation and CI.
-
-Pattern:
-1) Parse args in `main()`.
-2) Keep business logic in separate functions.
-3) Return explicit exit codes.
+Use When:
+- Provides discoverable commands and help text
+- Validates user input at the command boundary
+- Makes scripts reusable in automation and CI
 """
 
 import argparse

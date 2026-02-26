@@ -1,7 +1,7 @@
-"""Lecture 42: Rank Data (rankdata)
-
-Focus:
-- Robust ranking for signals.
+"""
+Technique: Rank Data (rankdata)
+Use When:
+- Robust ranking for signals
 """
 
 import numpy as np

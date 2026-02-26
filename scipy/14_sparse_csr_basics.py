@@ -1,7 +1,7 @@
-"""Lecture 14: Sparse Matrices (CSR)
-
-Focus:
-- Build and multiply sparse matrices.
+"""
+Technique: Sparse Matrices (CSR)
+Use When:
+- Build and multiply sparse matrices
 """
 
 import numpy as np

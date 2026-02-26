@@ -1,12 +1,8 @@
-"""Lecture 49: Benchmark-Relative Returns (Alpha)
-
-Hedge fund relevance:
-- Many reports are relative to a benchmark (SPX, sector index).
-- Requires careful date alignment.
-
-Key techniques:
-- align series by index
-- compute excess returns
+"""
+Technique: Benchmark-Relative Returns (Alpha)
+Use When:
+- Many reports are relative to a benchmark (SPX, sector index)
+- Requires careful date alignment
 """
 
 import pandas as pd

@@ -1,7 +1,7 @@
-"""Lecture 23: Global Optimization (dual_annealing)
-
-Focus:
-- Non-convex problems; global search heuristic.
+"""
+Technique: Global Optimization (dual_annealing)
+Use When:
+- Non-convex problems; global search heuristic
 """
 
 import numpy as np

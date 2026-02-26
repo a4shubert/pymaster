@@ -1,15 +1,9 @@
 """
 Technique: pathlib + Explicit File I/O
-
-Why this is professional:
-- `Path` objects are clearer and less error-prone than string paths.
-- File operations become cross-platform and composable.
-- Encoding/newline behavior is explicit.
-
-Pattern:
-1) Build paths with `Path`.
-2) Use explicit encoding.
-3) Keep file parsing in dedicated functions.
+Use When:
+- `Path` objects are clearer and less error-prone than string paths
+- File operations become cross-platform and composable
+- Encoding/newline behavior is explicit
 """
 
 from pathlib import Path

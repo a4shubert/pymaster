@@ -1,15 +1,9 @@
 """
 Technique: Higher-Order Functions (Functions that Take/Return Functions)
-
-Why this is professional:
-- Lets you inject behavior without inheritance.
-- Enables reusable transformations and policies.
-- Keeps code declarative and composable.
-
-Pattern:
-1) Accept a callable as an argument.
-2) Return a callable for specialization.
-3) Keep the callable contracts small.
+Use When:
+- Lets you inject behavior without inheritance
+- Enables reusable transformations and policies
+- Keeps code declarative and composable
 """
 
 from collections.abc import Callable

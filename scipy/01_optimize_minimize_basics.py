@@ -1,11 +1,8 @@
-"""Lecture 01: scipy.optimize.minimize (basics)
-
-Focus:
-- Unconstrained optimization with explicit objective.
-- Common in calibration and parameter estimation.
-
-Run:
-- Requires scipy installed.
+"""
+Technique: scipy.optimize.minimize (basics)
+Use When:
+- Unconstrained optimization with explicit objective
+- Common in calibration and parameter estimation
 """
 
 import numpy as np

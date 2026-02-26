@@ -1,7 +1,7 @@
-"""Lecture 36: Iterative Solve (Conjugate Gradient)
-
-Focus:
-- Large SPD systems solved iteratively.
+"""
+Technique: Iterative Solve (Conjugate Gradient)
+Use When:
+- Large SPD systems solved iteratively
 """
 
 import numpy as np

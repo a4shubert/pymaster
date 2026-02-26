@@ -1,13 +1,8 @@
-"""Lecture 05: merge vs join (Reference Data Enrichment)
-
-Hedge fund relevance:
-- Enrich trades with security master fields (sector, currency, lot size).
-- Bad joins create silent row explosions or dropped observations.
-
-Key techniques:
-- `merge(..., validate=...)`
-- `how='left'` for enrichment
-- `indicator=True` for audit
+"""
+Technique: merge vs join (Reference Data Enrichment)
+Use When:
+- Enrich trades with security master fields (sector, currency, lot size)
+- Bad joins create silent row explosions or dropped observations
 """
 
 import pandas as pd

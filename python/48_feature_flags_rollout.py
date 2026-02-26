@@ -1,15 +1,9 @@
 """
 Technique: Feature Flags + Percentage Rollout
-
-Why this is enterprise:
-- Gradual rollout reduces risk.
-- Enables fast rollback without redeploy.
-- Supports A/B tests and staged deployments.
-
-Pattern:
-1) Represent flags in config.
-2) Decide per user/request deterministically.
-3) Keep flag checks near the boundary.
+Use When:
+- Gradual rollout reduces risk
+- Enables fast rollback without redeploy
+- Supports A/B tests and staged deployments
 """
 
 import hashlib

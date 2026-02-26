@@ -1,7 +1,7 @@
-"""Lecture 38: Convex Hull (geometry)
-
-Focus:
-- Geometry utilities via scipy.spatial.
+"""
+Technique: Convex Hull (geometry)
+Use When:
+- Geometry utilities via scipy.spatial
 """
 
 import numpy as np

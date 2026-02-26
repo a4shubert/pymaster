@@ -1,12 +1,8 @@
-"""Lecture 18: groupby + rolling (Per-Asset Rolling Metrics)
-
-Hedge fund relevance:
-- Compute rolling vol per ticker across dates.
-- Avoid Python loops by using groupby+rolling.
-
-Key techniques:
-- `groupby('ticker')['ret'].rolling(window).std()`
-- `reset_index(level=0, drop=True)` to align back to original index
+"""
+Technique: groupby + rolling (Per-Asset Rolling Metrics)
+Use When:
+- Compute rolling vol per ticker across dates
+- Avoid Python loops by using groupby+rolling
 """
 
 import pandas as pd

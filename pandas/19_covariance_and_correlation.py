@@ -1,12 +1,8 @@
-"""Lecture 19: Covariance/Correlation Matrices (Risk + Diversification)
-
-Hedge fund relevance:
-- Portfolio risk models start with cov/corr of returns.
-- Proper alignment and missing handling are critical.
-
-Key techniques:
-- wide returns matrix (date x ticker)
-- `corr()` and `cov()`
+"""
+Technique: Covariance/Correlation Matrices (Risk + Diversification)
+Use When:
+- Portfolio risk models start with cov/corr of returns
+- Proper alignment and missing handling are critical
 """
 
 import pandas as pd

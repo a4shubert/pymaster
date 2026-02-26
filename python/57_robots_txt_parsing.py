@@ -1,14 +1,8 @@
 """
 Technique: robots.txt Parsing with urllib.robotparser
-
-Why this matters:
-- Basic politeness and compliance for scraping.
-- Quickly checks whether a URL is allowed for a user-agent.
-
-Pattern:
-1) Build RobotFileParser.
-2) Load/parse robots content.
-3) Query can_fetch.
+Use When:
+- Basic politeness and compliance for scraping
+- Quickly checks whether a URL is allowed for a user-agent
 """
 
 from urllib.robotparser import RobotFileParser

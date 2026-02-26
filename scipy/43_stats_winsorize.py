@@ -1,7 +1,7 @@
-"""Lecture 43: Winsorization (mstats.winsorize)
-
-Focus:
-- Cap extremes to reduce outlier impact.
+"""
+Technique: Winsorization (mstats.winsorize)
+Use When:
+- Cap extremes to reduce outlier impact
 """
 
 import numpy as np

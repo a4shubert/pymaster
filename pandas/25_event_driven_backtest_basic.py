@@ -1,13 +1,7 @@
-"""Lecture 25: Event-Driven-ish Backtest with Vectorization
-
-Hedge fund relevance:
+"""
+Technique: Event-Driven-ish Backtest with Vectorization
+Use When:
 - Many real systems are event-driven, but research often approximates with
-  daily bars and vector ops.
-
-Key techniques:
-- generate positions from signals
-- apply returns with shift
-- compute turnover (proxy for costs)
 """
 
 import pandas as pd

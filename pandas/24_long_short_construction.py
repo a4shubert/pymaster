@@ -1,15 +1,8 @@
-"""Lecture 24: Long/Short Portfolio Construction (Toy)
-
-Hedge fund relevance:
-- Most equity L/S flows: rank -> pick top/bottom -> equal weight or score weight.
-- Important: shift positions to avoid lookahead bias.
-
-Key techniques:
-- rank -> bucket selection
-- groupby to normalize weights
-
-Warning:
-- Toy example: ignores costs, constraints, borrow, liquidity.
+"""
+Technique: Long/Short Portfolio Construction (Toy)
+Use When:
+- Most equity L/S flows: rank -> pick top/bottom -> equal weight or score weight
+- Important: shift positions to avoid lookahead bias
 """
 
 import pandas as pd

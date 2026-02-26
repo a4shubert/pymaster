@@ -1,12 +1,8 @@
-"""Lecture 06: merge_asof (Align Trades to Quotes/Bars)
-
-Hedge fund relevance:
-- You often need the last known quote before a trade (or a bar close).
-- Regular merge fails because timestamps rarely match exactly.
-
-Key techniques:
-- `pd.merge_asof(..., direction='backward', tolerance=...)`
-- sort by the key first
+"""
+Technique: merge_asof (Align Trades to Quotes/Bars)
+Use When:
+- You often need the last known quote before a trade (or a bar close)
+- Regular merge fails because timestamps rarely match exactly
 """
 
 import pandas as pd

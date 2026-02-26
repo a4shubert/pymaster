@@ -1,13 +1,8 @@
-"""Lecture 41: Wide Returns Matrix + Alignment Discipline
-
-Hedge fund relevance:
-- Many risk/signal ops assume a (date x ticker) matrix.
-- Alignment errors are the #1 silent bug in matrix-based work.
-
-Key techniques:
-- Build wide matrix with pivot/unstack
-- `sort_index` and `sort_index(axis=1)`
-- Explicitly align by index/columns before math
+"""
+Technique: Wide Returns Matrix + Alignment Discipline
+Use When:
+- Many risk/signal ops assume a (date x ticker) matrix
+- Alignment errors are the #1 silent bug in matrix-based work
 """
 
 import pandas as pd

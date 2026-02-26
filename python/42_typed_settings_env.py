@@ -1,15 +1,9 @@
 """
 Technique: Typed Settings Loaded from Environment
-
-Why this is enterprise:
-- Clear, validated configuration contracts.
-- Fails fast when required settings are missing/invalid.
-- Keeps environment details out of business logic.
-
-Pattern:
-1) Parse env vars once at startup.
-2) Validate aggressively.
-3) Pass settings object through your app.
+Use When:
+- Clear, validated configuration contracts
+- Fails fast when required settings are missing/invalid
+- Keeps environment details out of business logic
 """
 
 import os

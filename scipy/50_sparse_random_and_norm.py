@@ -1,7 +1,7 @@
-"""Lecture 50: Sparse Random Matrices + Norms
-
-Focus:
-- Generate sparse random and compute norms.
+"""
+Technique: Sparse Random Matrices + Norms
+Use When:
+- Generate sparse random and compute norms
 """
 
 import numpy as np

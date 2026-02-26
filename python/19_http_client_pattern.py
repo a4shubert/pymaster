@@ -1,15 +1,9 @@
 """
 Technique: HTTP Client Wrapper Pattern
-
-Why this is professional:
-- Centralizes timeout, headers, retries, and error mapping.
-- Keeps endpoint callers thin and consistent.
-- Makes integration points easy to mock in tests.
-
-Pattern:
-1) Wrap HTTP details in a dedicated client class.
-2) Raise domain-specific errors.
-3) Return typed/normalized data to callers.
+Use When:
+- Centralizes timeout, headers, retries, and error mapping
+- Keeps endpoint callers thin and consistent
+- Makes integration points easy to mock in tests
 """
 
 from dataclasses import dataclass

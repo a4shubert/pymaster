@@ -1,7 +1,7 @@
-"""Lecture 19: ndimage Gaussian Filter
-
-Focus:
-- Smooth 2D arrays/images.
+"""
+Technique: ndimage Gaussian Filter
+Use When:
+- Smooth 2D arrays/images
 """
 
 import numpy as np

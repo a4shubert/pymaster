@@ -1,13 +1,8 @@
-"""Lecture 14: MultiIndex, stack/unstack (Panel Data)
-
-Hedge fund relevance:
-- A common representation is (date, ticker) -> fields.
-- stack/unstack reshapes between panel (MultiIndex) and matrix forms.
-
-Key techniques:
-- `set_index([...]).sort_index()`
-- `unstack` to wide (columns by ticker)
-- `stack` back to long/panel
+"""
+Technique: MultiIndex, stack/unstack (Panel Data)
+Use When:
+- A common representation is (date, ticker) -> fields
+- stack/unstack reshapes between panel (MultiIndex) and matrix forms
 """
 
 import pandas as pd

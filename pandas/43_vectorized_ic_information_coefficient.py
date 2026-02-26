@@ -1,15 +1,8 @@
-"""Lecture 43: Information Coefficient (IC) per Date (Toy)
-
-Hedge fund relevance:
-- IC measures signal predictive power (corr(signal_t, return_{t+1})).
-- Common for factor evaluation and monitoring.
-
-Key techniques:
-- align next-day returns with shift
-- compute per-date correlation
-
-Note:
-- Toy example using Pearson corr.
+"""
+Technique: Information Coefficient (IC) per Date (Toy)
+Use When:
+- IC measures signal predictive power (corr(signal_t, return_{t+1}))
+- Common for factor evaluation and monitoring
 """
 
 import pandas as pd

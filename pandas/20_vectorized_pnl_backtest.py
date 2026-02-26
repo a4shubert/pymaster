@@ -1,16 +1,8 @@
-"""Lecture 20: Vectorized PnL (Signals -> Positions -> Returns)
-
-Hedge fund relevance:
-- Fast research iteration requires vectorized backtests.
-- A common pattern: signal -> position (shift to avoid lookahead) -> PnL.
-
-Key techniques:
-- `shift(1)` to prevent lookahead bias
-- elementwise multiply for strategy returns
-- cumprod for equity curve
-
-Warning:
-- This is a toy example (no costs, slippage, borrow, constraints).
+"""
+Technique: Vectorized PnL (Signals -> Positions -> Returns)
+Use When:
+- Fast research iteration requires vectorized backtests
+- A common pattern: signal -> position (shift to avoid lookahead) -> PnL
 """
 
 import pandas as pd

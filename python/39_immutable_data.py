@@ -1,14 +1,9 @@
 """
 Technique: Immutable Data (Safer by Default)
-
-Why this is professional:
-- Reduces bugs from shared mutable state.
-- Makes functions easier to reason about.
-- Fits naturally with concurrency.
-
-Pattern:
-1) Use tuples/frozensets/frozen dataclasses.
-2) Return new values instead of mutating.
+Use When:
+- Reduces bugs from shared mutable state
+- Makes functions easier to reason about
+- Fits naturally with concurrency
 """
 
 from dataclasses import dataclass

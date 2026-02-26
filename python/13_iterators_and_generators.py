@@ -1,15 +1,9 @@
 """
 Technique: Generators for Streaming Data
-
-Why this is professional:
-- Processes large inputs lazily instead of loading everything in memory.
-- Keeps pipelines composable and efficient.
-- Simplifies line-by-line or record-by-record processing.
-
-Pattern:
-1) Yield one item at a time.
-2) Chain transformations with generator functions.
-3) Materialize only at the boundary when needed.
+Use When:
+- Processes large inputs lazily instead of loading everything in memory
+- Keeps pipelines composable and efficient
+- Simplifies line-by-line or record-by-record processing
 """
 
 from collections.abc import Iterable, Iterator

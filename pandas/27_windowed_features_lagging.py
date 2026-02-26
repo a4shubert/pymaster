@@ -1,12 +1,8 @@
-"""Lecture 27: Lagging + Feature Engineering (Avoid Lookahead)
-
-Hedge fund relevance:
-- Feature engineering often uses rolling stats.
-- You must lag features to ensure they are known at decision time.
-
-Key techniques:
-- `shift(1)` on features
-- build features from past data only
+"""
+Technique: Lagging + Feature Engineering (Avoid Lookahead)
+Use When:
+- Feature engineering often uses rolling stats
+- You must lag features to ensure they are known at decision time
 """
 
 import pandas as pd

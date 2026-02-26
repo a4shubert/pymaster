@@ -1,7 +1,7 @@
-"""Lecture 24: Linear Programming (linprog)
-
-Focus:
-- LP problems show up in allocation and constraints.
+"""
+Technique: Linear Programming (linprog)
+Use When:
+- LP problems show up in allocation and constraints
 """
 
 import numpy as np

@@ -1,12 +1,8 @@
-"""Lecture 45: Multi-Output Aggregations with Named Columns
-
-Hedge fund relevance:
-- Reporting often needs multiple metrics per group (PnL, vol, hit rate).
-- Named aggs keep outputs tidy and avoid MultiIndex columns.
-
-Key techniques:
-- `agg(newcol=(src, func))`
-- custom metric functions
+"""
+Technique: Multi-Output Aggregations with Named Columns
+Use When:
+- Reporting often needs multiple metrics per group (PnL, vol, hit rate)
+- Named aggs keep outputs tidy and avoid MultiIndex columns
 """
 
 import pandas as pd

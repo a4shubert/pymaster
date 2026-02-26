@@ -1,8 +1,8 @@
-"""Lecture 04: Nonlinear Least Squares (least_squares)
-
-Focus:
-- Fit model parameters by minimizing residuals.
-- Used for curve fitting and calibration.
+"""
+Technique: Nonlinear Least Squares (least_squares)
+Use When:
+- Fit model parameters by minimizing residuals
+- Used for curve fitting and calibration
 """
 
 import numpy as np

@@ -1,7 +1,7 @@
-"""Lecture 17: KDTree Nearest Neighbors
-
-Focus:
-- Fast nearest neighbor queries.
+"""
+Technique: KDTree Nearest Neighbors
+Use When:
+- Fast nearest neighbor queries
 """
 
 import numpy as np

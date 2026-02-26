@@ -1,7 +1,7 @@
-"""Lecture 39: Connected Components (ndimage.label)
-
-Focus:
-- Label connected regions in a binary matrix.
+"""
+Technique: Connected Components (ndimage.label)
+Use When:
+- Label connected regions in a binary matrix
 """
 
 import numpy as np

@@ -1,15 +1,9 @@
 """
 Technique: Circuit Breaker (Protect Dependencies)
-
-Why this is enterprise:
-- Prevents cascading failures when a downstream service is unhealthy.
-- Gives the dependency time to recover.
-- Improves overall system stability.
-
-Pattern:
-1) Track consecutive failures.
-2) Open the circuit after a threshold.
-3) Half-open after cooldown to probe recovery.
+Use When:
+- Prevents cascading failures when a downstream service is unhealthy
+- Gives the dependency time to recover
+- Improves overall system stability
 """
 
 import time

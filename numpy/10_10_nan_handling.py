@@ -1,9 +1,8 @@
-"""Lecture 10: NaN-aware stats: isnan, nanmean, nanstd
-
-Focus:
-- Intermediate/advanced NumPy techniques with a quant/finance bias.
-- Each file is runnable and uses only NumPy + stdlib.
-
+"""
+Technique: NaN-aware stats: isnan, nanmean, nanstd
+Use When:
+- Intermediate/advanced NumPy techniques with a quant/finance bias
+- Each file is runnable and uses only NumPy + stdlib
 """
 
 import numpy as np

@@ -1,16 +1,8 @@
-"""Lecture 21: Calendar Alignment (Trading Days vs Calendar Days)
-
-Hedge fund relevance:
-- Equity markets have holidays; crypto trades 24/7; rates have different calendars.
-- Misaligned calendars break backtests and risk.
-
-Key techniques:
-- Build a target index (calendar) and `reindex` to it.
-- Decide fill policy: `ffill` for prices, no-fill for returns.
-
-Note:
-- This uses a simple business-day calendar. Real production often uses
-  an exchange calendar library, but this stays standard pandas.
+"""
+Technique: Calendar Alignment (Trading Days vs Calendar Days)
+Use When:
+- Equity markets have holidays; crypto trades 24/7; rates have different calendars
+- Misaligned calendars break backtests and risk
 """
 
 import pandas as pd

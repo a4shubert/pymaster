@@ -1,13 +1,8 @@
-"""Lecture 29: Data Validation Checks (Cheap Guardrails)
-
-Hedge fund relevance:
-- Silent data issues (duplicates, missing keys) destroy PnL credibility.
-- Lightweight assertions catch issues early in notebooks/ETL.
-
-Key techniques:
-- check uniqueness (primary keys)
-- check ranges and null rates
-- enforce expected dtypes
+"""
+Technique: Data Validation Checks (Cheap Guardrails)
+Use When:
+- Silent data issues (duplicates, missing keys) destroy PnL credibility
+- Lightweight assertions catch issues early in notebooks/ETL
 """
 
 import pandas as pd

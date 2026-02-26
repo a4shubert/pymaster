@@ -1,13 +1,8 @@
-"""Lecture 26: Time Series Joins for Many Assets (Panel Merge)
-
-Hedge fund relevance:
-- Combine returns + signals + fundamentals keyed by (date, ticker).
-- MultiIndex joins prevent accidental cartesian products.
-
-Key techniques:
-- set MultiIndex and join on index
-- `join(..., how='inner'/'left')`
-- verify row counts and missingness
+"""
+Technique: Time Series Joins for Many Assets (Panel Merge)
+Use When:
+- Combine returns + signals + fundamentals keyed by (date, ticker)
+- MultiIndex joins prevent accidental cartesian products
 """
 
 import pandas as pd

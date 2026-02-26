@@ -1,15 +1,9 @@
 """
 Technique: Unit Testing with pytest (Fast, Focused, Deterministic)
-
-Why this is professional:
-- Tests verify behavior and protect against regressions.
-- Unit tests run fast because they isolate one unit of logic.
-- Parametrization reduces repetitive test code.
-
-Pattern:
-1) Keep pure business logic in small functions.
-2) Write happy-path and failure-path tests.
-3) Use pytest.parametrize for multiple input scenarios.
+Use When:
+- Tests verify behavior and protect against regressions
+- Unit tests run fast because they isolate one unit of logic
+- Parametrization reduces repetitive test code
 """
 
 from dataclasses import dataclass

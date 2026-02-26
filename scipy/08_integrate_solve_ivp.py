@@ -1,8 +1,8 @@
-"""Lecture 08: ODE Solving (solve_ivp)
-
-Focus:
-- Solve initial value problems.
-- Shows up in term structure models and dynamics.
+"""
+Technique: ODE Solving (solve_ivp)
+Use When:
+- Solve initial value problems
+- Shows up in term structure models and dynamics
 """
 
 import numpy as np

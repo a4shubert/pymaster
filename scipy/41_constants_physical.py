@@ -1,7 +1,7 @@
-"""Lecture 41: scipy.constants (sanity constants)
-
-Focus:
-- Standard constants (mostly not finance, but useful pattern).
+"""
+Technique: scipy.constants (sanity constants)
+Use When:
+- Standard constants (mostly not finance, but useful pattern)
 """
 
 from scipy import constants

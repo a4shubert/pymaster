@@ -1,15 +1,9 @@
 """
 Technique: Dataclasses with slots (Memory + Attribute Safety)
-
-Why this is professional:
-- `slots=True` reduces per-instance overhead for many objects.
-- Prevents accidental attribute creation (typos become errors).
-- Works well for large collections of objects.
-
-Pattern:
-1) Use slots for many instances.
-2) Prefer frozen value objects.
-3) Keep mutability intentional.
+Use When:
+- `slots=True` reduces per-instance overhead for many objects
+- Prevents accidental attribute creation (typos become errors)
+- Works well for large collections of objects
 """
 
 from dataclasses import dataclass

@@ -1,15 +1,8 @@
-"""Lecture 22: Outliers (clip / winsor-like handling)
-
-Hedge fund relevance:
-- Bad prints or corporate action errors can create huge outliers.
-- Outliers can dominate z-scores, correlations, and risk estimates.
-
-Key techniques:
-- `Series.clip(lower, upper)`
-- Quantile-based clipping
-
-Note:
-- True winsorization replaces extreme values with boundary quantiles.
+"""
+Technique: Outliers (clip / winsor-like handling)
+Use When:
+- Bad prints or corporate action errors can create huge outliers
+- Outliers can dominate z-scores, correlations, and risk estimates
 """
 
 import pandas as pd

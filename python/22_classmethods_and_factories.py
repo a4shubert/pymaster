@@ -1,15 +1,9 @@
 """
 Technique: @classmethod Factories (Multiple Constructors)
-
-Why this is professional:
-- Object creation rules stay centralized.
-- Intent is explicit (from_env, from_json, from_dsn).
-- Constructor changes can remain backwards-compatible.
-
-Pattern:
-1) Keep __init__ minimal.
-2) Add @classmethod constructors per source.
-3) Validate inside factories.
+Use When:
+- Object creation rules stay centralized
+- Intent is explicit (from_env, from_json, from_dsn)
+- Constructor changes can remain backwards-compatible
 """
 
 import os

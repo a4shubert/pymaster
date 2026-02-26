@@ -1,8 +1,8 @@
-"""Lecture 05: 1D Interpolation (interp1d)
-
-Focus:
-- Interpolate curves (yield curves, vol surfaces slices).
-- Choose kind and bounds behavior.
+"""
+Technique: 1D Interpolation (interp1d)
+Use When:
+- Interpolate curves (yield curves, vol surfaces slices)
+- Choose kind and bounds behavior
 """
 
 import numpy as np

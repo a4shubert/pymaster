@@ -1,12 +1,8 @@
-"""Lecture 42: Cross-Sectional Neutralization (Demean Matrix)
-
-Hedge fund relevance:
-- A cheap neutralization step is to remove the per-date mean.
-- Helps reduce unwanted net exposure when signals are biased.
-
-Key techniques:
-- subtract row-wise mean
-- keep NaNs stable
+"""
+Technique: Cross-Sectional Neutralization (Demean Matrix)
+Use When:
+- A cheap neutralization step is to remove the per-date mean
+- Helps reduce unwanted net exposure when signals are biased
 """
 
 import pandas as pd

@@ -1,15 +1,8 @@
-"""Lecture 34: Factor Exposure Regression (Toy, No Statsmodels)
-
-Hedge fund relevance:
-- Exposure estimation (beta) and factor neutralization show up everywhere.
-- Production uses robust stats tooling; here we show a minimal matrix approach.
-
-Key techniques:
-- build design matrix X
-- solve least squares with numpy
-
-Note:
-- This is a toy illustration (no intercept handling issues, no robust errors).
+"""
+Technique: Factor Exposure Regression (Toy, No Statsmodels)
+Use When:
+- Exposure estimation (beta) and factor neutralization show up everywhere
+- Production uses robust stats tooling; here we show a minimal matrix approach
 """
 
 import numpy as np

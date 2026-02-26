@@ -1,14 +1,8 @@
 """
 Technique: HTML Parsing with html.parser (Standard Library)
-
-Why this matters:
-- Avoids brittle regex parsing for HTML.
-- Good for simple scraping/extraction tasks.
-
-Pattern:
-1) Subclass HTMLParser.
-2) Track state for tags you care about.
-3) Extract data in handler methods.
+Use When:
+- Avoids brittle regex parsing for HTML
+- Good for simple scraping/extraction tasks
 """
 
 from html.parser import HTMLParser

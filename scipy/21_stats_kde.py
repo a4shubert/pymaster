@@ -1,7 +1,7 @@
-"""Lecture 21: Kernel Density Estimation (gaussian_kde)
-
-Focus:
-- Nonparametric density estimation (risk tails exploration).
+"""
+Technique: Kernel Density Estimation (gaussian_kde)
+Use When:
+- Nonparametric density estimation (risk tails exploration)
 """
 
 import numpy as np

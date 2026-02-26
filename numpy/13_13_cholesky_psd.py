@@ -1,3 +1,10 @@
+"""
+Technique: Cholesky psd
+Use When:
+- You are working in numerical computing with arrays
+- You need cholesky psd as a reliable building block
+"""
+
 """Lecture 13: Cholesky (SPD matrices) and checks
 
 Focus:

@@ -1,12 +1,8 @@
-"""Lecture 10: pipe for Clean Data Pipelines
-
-Hedge fund relevance:
-- Research code becomes production-like when pipelines are explicit.
-- `pipe` reduces intermediate variables and encourages reusable steps.
-
-Key techniques:
-- `df.pipe(fn, ...)`
-- small single-purpose functions
+"""
+Technique: pipe for Clean Data Pipelines
+Use When:
+- Research code becomes production-like when pipelines are explicit
+- `pipe` reduces intermediate variables and encourages reusable steps
 """
 
 import pandas as pd

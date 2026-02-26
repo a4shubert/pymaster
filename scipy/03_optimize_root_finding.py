@@ -1,8 +1,8 @@
-"""Lecture 03: Root Finding (scipy.optimize.root)
-
-Focus:
-- Solve systems f(x)=0.
-- Appears in implied volatility and equilibrium conditions.
+"""
+Technique: Root Finding (scipy.optimize.root)
+Use When:
+- Solve systems f(x)=0
+- Appears in implied volatility and equilibrium conditions
 """
 
 import numpy as np

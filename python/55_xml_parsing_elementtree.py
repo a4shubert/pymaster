@@ -1,14 +1,8 @@
 """
 Technique: XML Parsing with xml.etree.ElementTree
-
-Why this matters:
-- XML is still common in enterprise integrations (feeds, legacy APIs).
-- ElementTree provides a safe, structured parser.
-
-Pattern:
-1) Parse with fromstring/parse.
-2) Use find/findall with XPath-like queries.
-3) Validate required elements.
+Use When:
+- XML is still common in enterprise integrations (feeds, legacy APIs)
+- ElementTree provides a safe, structured parser
 """
 
 import xml.etree.ElementTree as ET

@@ -1,13 +1,8 @@
-"""Lecture 46: Duplicate Handling (Primary Keys) in Market Data
-
-Hedge fund relevance:
-- Vendor files sometimes duplicate records.
-- You must decide a deterministic rule (last, first, max volume).
-
-Key techniques:
-- `duplicated` to detect
-- `drop_duplicates(keep='last')`
-- sort before dropping for determinism
+"""
+Technique: Duplicate Handling (Primary Keys) in Market Data
+Use When:
+- Vendor files sometimes duplicate records
+- You must decide a deterministic rule (last, first, max volume)
 """
 
 import pandas as pd

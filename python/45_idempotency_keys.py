@@ -1,15 +1,9 @@
 """
 Technique: Idempotency Keys for Safe Retries
-
-Why this is enterprise:
-- Prevents double-processing when clients retry requests.
-- Makes APIs safe under timeouts and network failures.
-- Improves correctness in payment/order flows.
-
-Pattern:
-1) Accept an idempotency key from caller.
-2) Store key -> result mapping.
-3) If key already processed, return stored result.
+Use When:
+- Prevents double-processing when clients retry requests
+- Makes APIs safe under timeouts and network failures
+- Improves correctness in payment/order flows
 """
 
 import sqlite3

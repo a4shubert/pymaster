@@ -1,15 +1,9 @@
 """
 Technique: Pure Functions (Predictable, Testable Code)
-
-Why this is professional:
-- Pure functions are deterministic: same inputs, same output.
-- No hidden side effects makes testing and reasoning easy.
-- Encourages clean boundaries between logic and I/O.
-
-Pattern:
-1) Keep inputs explicit.
-2) Return new values (do not mutate inputs).
-3) Separate pure logic from I/O wrappers.
+Use When:
+- Pure functions are deterministic: same inputs, same output
+- No hidden side effects makes testing and reasoning easy
+- Encourages clean boundaries between logic and I/O
 """
 
 from dataclasses import dataclass

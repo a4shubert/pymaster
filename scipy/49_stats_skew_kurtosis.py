@@ -1,7 +1,7 @@
-"""Lecture 49: Skew/Kurtosis
-
-Focus:
-- Tail shape metrics (be cautious; noisy estimates).
+"""
+Technique: Skew/Kurtosis
+Use When:
+- Tail shape metrics (be cautious; noisy estimates)
 """
 
 import numpy as np

@@ -1,7 +1,7 @@
-"""Lecture 40: Special Functions (gamma)
-
-Focus:
-- Gamma appears in distributions and normalization constants.
+"""
+Technique: Special Functions (gamma)
+Use When:
+- Gamma appears in distributions and normalization constants
 """
 
 import numpy as np

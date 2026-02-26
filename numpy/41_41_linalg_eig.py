@@ -1,3 +1,10 @@
+"""
+Technique: Linalg eig
+Use When:
+- You are working in numerical computing with arrays
+- You need linalg eig as a reliable building block
+"""
+
 """Lecture 41: Eigenvalues (risk PCA intuition)
 
 Focus:

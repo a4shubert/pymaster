@@ -1,12 +1,8 @@
-"""Lecture 08: groupby + Named Aggregations
-
-Hedge fund relevance:
-- Summarize exposures by sector, region, book, PM.
-- Named aggregations produce clean column names (no MultiIndex columns).
-
-Key techniques:
-- `groupby(...).agg(col=('src','func'))`
-- `as_index=False` vs index output
+"""
+Technique: groupby + Named Aggregations
+Use When:
+- Summarize exposures by sector, region, book, PM
+- Named aggregations produce clean column names (no MultiIndex columns)
 """
 
 import pandas as pd

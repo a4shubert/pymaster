@@ -1,13 +1,8 @@
-"""Lecture 07: concat + Alignment Pitfalls
-
-Hedge fund relevance:
-- Combining signals/returns from different sources can misalign dates.
-- Pandas aligns on index by default, which is powerful but can surprise.
-
-Key techniques:
-- `pd.concat(..., axis=1)` aligns on index
-- `join='inner'` to keep intersection
-- explicit `reindex` to a target calendar
+"""
+Technique: concat + Alignment Pitfalls
+Use When:
+- Combining signals/returns from different sources can misalign dates
+- Pandas aligns on index by default, which is powerful but can surprise
 """
 
 import pandas as pd

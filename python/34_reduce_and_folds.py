@@ -1,14 +1,9 @@
 """
 Technique: reduce (Folds) for Aggregation
-
-Why this is professional:
-- Captures aggregation logic as a single expression.
-- Useful when building up a value with a clear accumulator.
-- Works well with immutable accumulator patterns.
-
-Note:
-- In Python, explicit loops can be clearer than reduce.
-- Use reduce when it improves readability.
+Use When:
+- Captures aggregation logic as a single expression
+- Useful when building up a value with a clear accumulator
+- Works well with immutable accumulator patterns
 """
 
 from functools import reduce

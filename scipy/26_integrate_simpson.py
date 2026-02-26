@@ -1,7 +1,7 @@
-"""Lecture 26: Simpson Integration (samples)
-
-Focus:
-- Integrate sampled data.
+"""
+Technique: Simpson Integration (samples)
+Use When:
+- Integrate sampled data
 """
 
 import numpy as np

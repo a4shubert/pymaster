@@ -1,7 +1,7 @@
-"""Lecture 48: B-splines (BSpline)
-
-Focus:
-- Low-level spline representation.
+"""
+Technique: B-splines (BSpline)
+Use When:
+- Low-level spline representation
 """
 
 import numpy as np

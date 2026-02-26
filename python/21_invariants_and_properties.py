@@ -1,15 +1,9 @@
 """
 Technique: Encapsulation with Invariants + @property
-
-Why this is professional:
-- Objects protect their own correctness (invariants).
-- Callers use a simple API; representation can change safely.
-- Properties expose computed values without leaking internal state.
-
-Pattern:
-1) Keep fields private.
-2) Validate in the constructor and mutators.
-3) Expose read-only computed properties.
+Use When:
+- Objects protect their own correctness (invariants)
+- Callers use a simple API; representation can change safely
+- Properties expose computed values without leaking internal state
 """
 
 from dataclasses import dataclass

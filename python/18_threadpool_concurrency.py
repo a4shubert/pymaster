@@ -1,15 +1,9 @@
 """
 Technique: ThreadPoolExecutor for Blocking I/O
-
-Why this is professional:
-- Speeds up independent blocking operations.
-- Keeps code simple when APIs are synchronous.
-- Controls concurrency level explicitly.
-
-Pattern:
-1) Use thread pool for blocking I/O tasks.
-2) Submit independent jobs.
-3) Collect results with `as_completed` and handle errors.
+Use When:
+- Speeds up independent blocking operations
+- Keeps code simple when APIs are synchronous
+- Controls concurrency level explicitly
 """
 
 import time

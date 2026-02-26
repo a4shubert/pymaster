@@ -1,12 +1,8 @@
-"""Lecture 16: Categoricals for Reference Data (Speed + Memory)
-
-Hedge fund relevance:
-- Repeated strings (ticker, sector, venue, book) are common and expensive.
-- Categoricals compress memory and speed groupby operations.
-
-Key techniques:
-- `astype('category')`
-- ordered categories for stable reporting
+"""
+Technique: Categoricals for Reference Data (Speed + Memory)
+Use When:
+- Repeated strings (ticker, sector, venue, book) are common and expensive
+- Categoricals compress memory and speed groupby operations
 """
 
 import pandas as pd

@@ -1,15 +1,9 @@
 """
 Technique: Centralized Logging with dictConfig
-
-Why this is enterprise:
-- One place to configure log level, format, and handlers.
-- Consistent, structured-ish logs across modules.
-- Easy to tune behavior per environment (dev/stage/prod).
-
-Pattern:
-1) Configure logging once at process start.
-2) Use module-level loggers.
-3) Log events with consistent key/value fields.
+Use When:
+- One place to configure log level, format, and handlers
+- Consistent, structured-ish logs across modules
+- Easy to tune behavior per environment (dev/stage/prod)
 """
 
 import logging

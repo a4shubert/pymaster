@@ -1,15 +1,9 @@
 """
 Technique: Dataclasses vs Regular Classes (Choose the Right Model)
-
-Why this is professional:
-- `@dataclass` removes boilerplate for data containers.
-- Regular classes are better when behavior/lifecycle dominates.
-- Clear model choice improves readability and maintainability.
-
-Pattern:
-1) Use dataclass for mostly-data objects (DTOs, value objects).
-2) Use regular class for service objects with stateful behavior.
-3) Keep domain rules close to the model regardless of style.
+Use When:
+- `@dataclass` removes boilerplate for data containers
+- Regular classes are better when behavior/lifecycle dominates
+- Clear model choice improves readability and maintainability
 """
 
 from dataclasses import dataclass

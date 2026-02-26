@@ -1,17 +1,9 @@
-"""Lecture 01: Dtypes and Memory Discipline (Trading Data at Scale)
-
-Hedge fund relevance:
-- Market/position data gets large quickly; dtype choices drive latency and cost.
-- Use nullable dtypes for clean missing handling without object columns.
-- Use categoricals for repeated strings (tickers, venues, sectors).
-
-Key techniques:
-- `astype` to numeric/nullable types
-- `category` dtype
-- `memory_usage(deep=True)`
-
-Run:
-- Requires `pandas` installed.
+"""
+Technique: Dtypes and Memory Discipline (Trading Data at Scale)
+Use When:
+- Market/position data gets large quickly; dtype choices drive latency and cost
+- Use nullable dtypes for clean missing handling without object columns
+- Use categoricals for repeated strings (tickers, venues, sectors)
 """
 
 import pandas as pd

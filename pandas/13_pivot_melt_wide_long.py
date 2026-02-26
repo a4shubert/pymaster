@@ -1,13 +1,8 @@
-"""Lecture 13: Wide vs Long (pivot, pivot_table, melt)
-
-Hedge fund relevance:
-- Research often needs wide matrices (date x ticker returns).
-- Storage/ETL often prefers long format (tidy records).
-
-Key techniques:
-- `pivot` when unique keys are guaranteed
-- `pivot_table` when you need aggregation
-- `melt` to normalize back to long
+"""
+Technique: Wide vs Long (pivot, pivot_table, melt)
+Use When:
+- Research often needs wide matrices (date x ticker returns)
+- Storage/ETL often prefers long format (tidy records)
 """
 
 import pandas as pd

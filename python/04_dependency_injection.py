@@ -1,15 +1,9 @@
 """
 Technique: Dependency Injection (Design for Testability)
-
-Why this is professional:
-- Business logic does not hardcode external systems (DB, API, clock, email).
-- You can swap real implementations with fakes in tests.
-- Code becomes modular and easier to evolve.
-
-Pattern:
-1) Define a protocol/interface for dependency behavior.
-2) Inject dependency into service/class.
-3) Use fake implementation for tests and local demos.
+Use When:
+- Business logic does not hardcode external systems (DB, API, clock, email)
+- You can swap real implementations with fakes in tests
+- Code becomes modular and easier to evolve
 """
 
 from dataclasses import dataclass

@@ -1,15 +1,9 @@
 """
 Technique: Health Checks (Liveness vs Readiness)
-
-Why this is enterprise:
-- Orchestrators (Kubernetes, ECS) rely on health endpoints.
-- Liveness: process is running.
-- Readiness: process can serve traffic (deps available).
-
-Pattern:
-1) Separate liveness and readiness.
-2) Keep checks fast and side-effect free.
-3) Surface enough detail for debugging.
+Use When:
+- Orchestrators (Kubernetes, ECS) rely on health endpoints
+- Liveness: process is running
+- Readiness: process can serve traffic (deps available)
 """
 
 import sqlite3
