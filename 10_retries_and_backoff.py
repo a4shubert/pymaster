@@ -25,6 +25,12 @@ class PermanentError(Exception):
     pass
 
 
+def compute_backoff_delay(attempt: int, base_delay: float, max_delay: float) -> float:
+    delay = min(base_delay * (2 ** (attempt - 1)), max_delay)
+    jitter = random.uniform(0, delay * 0.25)
+    return delay + jitter
+
+
 def with_retries(
     func: Callable[[], str],
     *,
@@ -45,9 +51,7 @@ def with_retries(
             if attempt == attempts:
                 raise RuntimeError(f"failed after {attempts} attempts") from exc
 
-            delay = min(base_delay * (2 ** (attempt - 1)), max_delay)
-            jitter = random.uniform(0, delay * 0.25)
-            sleep_for = delay + jitter
+            sleep_for = compute_backoff_delay(attempt, base_delay, max_delay)
             print(f"attempt={attempt} transient_error='{exc}' retry_in={sleep_for:.2f}s")
             time.sleep(sleep_for)
 
